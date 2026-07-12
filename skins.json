@@ -1,0 +1,5553 @@
+{
+  "v": 2,
+  "version": "2026.07.09.702",
+  "generated": "2026-07-09T21:11:34.710Z",
+  "count": 699,
+  "skins": {
+    "12920012": [
+      "tomahawk",
+      "Cyber Smite",
+      4,
+      3
+    ],
+    "18399781": [
+      "shark",
+      "Sweetheart",
+      4,
+      2
+    ],
+    "24036079": [
+      "tomahawk",
+      "Worn Tomahawk",
+      4,
+      3
+    ],
+    "27518935": [
+      "mac10",
+      "Bombe",
+      4,
+      2
+    ],
+    "31508319": [
+      "m60",
+      "Hadley",
+      2,
+      0
+    ],
+    "34030475": [
+      "bayonet",
+      "Psychedelic",
+      5,
+      3
+    ],
+    "39271414": [
+      "mac10",
+      "Catalyst",
+      4,
+      0
+    ],
+    "41164069": [
+      "bayonet",
+      "2025 Bayonet",
+      4,
+      1
+    ],
+    "45215615": [
+      "vita",
+      "2025 VITA",
+      4,
+      0
+    ],
+    "50705361": [
+      "mac10",
+      "Savage",
+      3,
+      0
+    ],
+    "51595424": [
+      "vita",
+      "2022 Vita",
+      3,
+      0
+    ],
+    "77602579": [
+      "bayonet",
+      "Solstice",
+      4,
+      3
+    ],
+    "84518460": [
+      "vita",
+      "Rosed",
+      4,
+      0
+    ],
+    "e54330dc": [
+      "tomahawk",
+      "Abstract",
+      4,
+      3
+    ],
+    "88ae76fa": [
+      "tomahawk",
+      "Alucard",
+      4,
+      1
+    ],
+    "0906ce32": [
+      "tomahawk",
+      "Blast(toma)",
+      4,
+      1
+    ],
+    "428f6c8a": [
+      "tomahawk",
+      "Capricorn",
+      4,
+      1
+    ],
+    "719d1dbf": [
+      "tomahawk",
+      "Cartoon Tomahawk",
+      4,
+      3
+    ],
+    "8506219b": [
+      "tomahawk",
+      "Cherry",
+      4,
+      3
+    ],
+    "1351a8bd": [
+      "tomahawk",
+      "Comic Tomahawk",
+      4,
+      3
+    ],
+    "56f2b41d": [
+      "tomahawk",
+      "Crude",
+      4,
+      3
+    ],
+    "49d097f2": [
+      "tomahawk",
+      "Cyber Tomahawk",
+      4,
+      3
+    ],
+    "6768bccd": [
+      "tomahawk",
+      "Damascus",
+      4,
+      1
+    ],
+    "397a3f05": [
+      "tomahawk",
+      "Default(toma)",
+      0,
+      1
+    ],
+    "8ba45f73": [
+      "tomahawk",
+      "Dragonic(toma)",
+      4,
+      1
+    ],
+    "e1d793e4": [
+      "tomahawk",
+      "Glace",
+      4,
+      3
+    ],
+    "f0d17401": [
+      "tomahawk",
+      "Gloopahawk",
+      4,
+      3
+    ],
+    "f5027930": [
+      "tomahawk",
+      "HoneyComb",
+      4,
+      3
+    ],
+    "a4782cf0": [
+      "tomahawk",
+      "Hopeless",
+      4,
+      3
+    ],
+    "65314bed": [
+      "tomahawk",
+      "HotRod(toma)",
+      4,
+      3
+    ],
+    "0d7ba3af": [
+      "tomahawk",
+      "Iris",
+      4,
+      3
+    ],
+    "b095be8d": [
+      "tomahawk",
+      "Jungle",
+      4,
+      3
+    ],
+    "43c02dda": [
+      "tomahawk",
+      "Mintique Tomahawk",
+      4,
+      3
+    ],
+    "b2d07fa3": [
+      "tomahawk",
+      "Noxious",
+      4,
+      3
+    ],
+    "71135d5a": [
+      "tomahawk",
+      "Reactor",
+      4,
+      1
+    ],
+    "ef08a8e8": [
+      "tomahawk",
+      "Scalped",
+      4,
+      3
+    ],
+    "35a5d845": [
+      "tomahawk",
+      "Shit(toma)",
+      4,
+      1
+    ],
+    "138b8182": [
+      "tomahawk",
+      "Snake",
+      4,
+      3
+    ],
+    "ac105d0f": [
+      "tomahawk",
+      "StarDust",
+      4,
+      3
+    ],
+    "88aaf4d2": [
+      "tomahawk",
+      "Stingray",
+      4,
+      3
+    ],
+    "919bf21f": [
+      "tomahawk",
+      "Supernova",
+      4,
+      3
+    ],
+    "f2375ac3": [
+      "tomahawk",
+      "Tici",
+      4,
+      3
+    ],
+    "8ed8e0b2": [
+      "tomahawk",
+      "Void(toma)",
+      4,
+      1
+    ],
+    "02854200": [
+      "bayonet",
+      "2024",
+      4,
+      1
+    ],
+    "20df26d0": [
+      "bayonet",
+      "2026 Bayonet",
+      4,
+      1
+    ],
+    "3c1c1d8a": [
+      "bayonet",
+      "22",
+      2,
+      3
+    ],
+    "7b45cc84": [
+      "bayonet",
+      "Action",
+      4,
+      3
+    ],
+    "7ddc569a": [
+      "bayonet",
+      "Alighted",
+      4,
+      1
+    ],
+    "cc279290": [
+      "bayonet",
+      "Alpha",
+      4,
+      1
+    ],
+    "0d627beb": [
+      "bayonet",
+      "Anarch",
+      4,
+      1
+    ],
+    "c56dd194": [
+      "bayonet",
+      "Antique",
+      5,
+      3
+    ],
+    "aa8083d7": [
+      "bayonet",
+      "Apple",
+      3,
+      1
+    ],
+    "07fe5d3d": [
+      "bayonet",
+      "Archverse",
+      4,
+      3
+    ],
+    "cae40b42": [
+      "bayonet",
+      "Bambi",
+      4,
+      3
+    ],
+    "31331ee4": [
+      "bayonet",
+      "Beach",
+      3,
+      3
+    ],
+    "0c3e145e": [
+      "bayonet",
+      "BlackHole",
+      5,
+      3
+    ],
+    "879963be": [
+      "bayonet",
+      "Blast(bayonet)",
+      4,
+      1
+    ],
+    "9c950380": [
+      "bayonet",
+      "Bled",
+      3,
+      3
+    ],
+    "a2838521": [
+      "bayonet",
+      "Bloo",
+      4,
+      3
+    ],
+    "1db80476": [
+      "bayonet",
+      "Bolt",
+      4,
+      3
+    ],
+    "5db7e15a": [
+      "bayonet",
+      "Bone",
+      4,
+      3
+    ],
+    "3293e221": [
+      "bayonet",
+      "BubblePop",
+      4,
+      3
+    ],
+    "77e1e295": [
+      "bayonet",
+      "Bunnies",
+      4,
+      3
+    ],
+    "c7965f06": [
+      "bayonet",
+      "Butterflies",
+      3,
+      3
+    ],
+    "5394ef01": [
+      "bayonet",
+      "Candle",
+      4,
+      3
+    ],
+    "dc76627e": [
+      "bayonet",
+      "Cane",
+      2,
+      3
+    ],
+    "8176e357": [
+      "bayonet",
+      "Caring",
+      4,
+      1
+    ],
+    "7540514d": [
+      "bayonet",
+      "Cartoon Bayonet",
+      4,
+      3
+    ],
+    "7330acc2": [
+      "bayonet",
+      "Champion",
+      3,
+      3
+    ],
+    "6b6deb97": [
+      "bayonet",
+      "Charmed",
+      4,
+      1
+    ],
+    "070e8fac": [
+      "bayonet",
+      "Chocowaffle",
+      4,
+      3
+    ],
+    "425b0f4c": [
+      "bayonet",
+      "Chromium",
+      4,
+      3
+    ],
+    "ca74820f": [
+      "bayonet",
+      "Clownicidal",
+      4,
+      3
+    ],
+    "9de19189": [
+      "bayonet",
+      "Comic Bayonet",
+      4,
+      3
+    ],
+    "6c982378": [
+      "bayonet",
+      "Cornfeild",
+      4,
+      1
+    ],
+    "f27c6b0b": [
+      "bayonet",
+      "Cryptex",
+      4,
+      3
+    ],
+    "d9b571a7": [
+      "bayonet",
+      "CV01",
+      4,
+      1
+    ],
+    "42de6109": [
+      "bayonet",
+      "CYB3ER",
+      4,
+      1
+    ],
+    "bd9a7f52": [
+      "bayonet",
+      "Cyber Bayonet",
+      4,
+      1
+    ],
+    "76c24e59": [
+      "bayonet",
+      "Default(bayonet)",
+      0,
+      1
+    ],
+    "fdf63403": [
+      "bayonet",
+      "Dragonic(bayonet)",
+      4,
+      1
+    ],
+    "7053eab7": [
+      "bayonet",
+      "Drake",
+      4,
+      1
+    ],
+    "f8fdb8b4": [
+      "bayonet",
+      "Easter",
+      3,
+      3
+    ],
+    "d21aad57": [
+      "bayonet",
+      "Eci",
+      4,
+      1
+    ],
+    "47cab826": [
+      "bayonet",
+      "Eclipse",
+      4,
+      1
+    ],
+    "e8493f6a": [
+      "bayonet",
+      "Eggs",
+      4,
+      1
+    ],
+    "39f1bb44": [
+      "bayonet",
+      "Electra",
+      4,
+      3
+    ],
+    "86751ae0": [
+      "bayonet",
+      "Eruption",
+      4,
+      1
+    ],
+    "054a47d3": [
+      "bayonet",
+      "Faded",
+      4,
+      3
+    ],
+    "b254099f": [
+      "bayonet",
+      "Femboy",
+      5,
+      3
+    ],
+    "7aff8e6c": [
+      "bayonet",
+      "Firecracker",
+      4,
+      3
+    ],
+    "c6d21d01": [
+      "bayonet",
+      "Flaming",
+      4,
+      3
+    ],
+    "3b3ccc54": [
+      "bayonet",
+      "FlareFang",
+      4,
+      1
+    ],
+    "d607631a": [
+      "bayonet",
+      "Flowy",
+      4,
+      3
+    ],
+    "25337fa6": [
+      "bayonet",
+      "Forge",
+      3,
+      3
+    ],
+    "c5b78cf7": [
+      "bayonet",
+      "Fumes",
+      4,
+      3
+    ],
+    "bf80c032": [
+      "bayonet",
+      "Galactic",
+      4,
+      3
+    ],
+    "cb2eec3e": [
+      "bayonet",
+      "Gardener",
+      4,
+      3
+    ],
+    "23b9555e": [
+      "bayonet",
+      "Glance",
+      4,
+      1
+    ],
+    "a09a31bd": [
+      "bayonet",
+      "Glitch",
+      4,
+      3
+    ],
+    "750b0963": [
+      "bayonet",
+      "Glitter",
+      4,
+      1
+    ],
+    "72f8f241": [
+      "bayonet",
+      "Glooplate",
+      4,
+      3
+    ],
+    "0516c979": [
+      "bayonet",
+      "Gold Coins",
+      3,
+      1
+    ],
+    "8a28ebec": [
+      "bayonet",
+      "Heat",
+      4,
+      3
+    ],
+    "c41b6bb6": [
+      "bayonet",
+      "Heather",
+      4,
+      1
+    ],
+    "93c2ef17": [
+      "bayonet",
+      "Honey",
+      4,
+      1
+    ],
+    "c4fda2f6": [
+      "bayonet",
+      "Hot Rod",
+      4,
+      1
+    ],
+    "f3b92124": [
+      "bayonet",
+      "Hotrod Bayonet",
+      4,
+      3
+    ],
+    "796d0aa8": [
+      "bayonet",
+      "Hypnotic",
+      4,
+      1
+    ],
+    "81c3b633": [
+      "bayonet",
+      "Ice Breaker",
+      4,
+      1
+    ],
+    "f9db8bb0": [
+      "bayonet",
+      "Icing",
+      4,
+      1
+    ],
+    "490c7963": [
+      "bayonet",
+      "Immortal",
+      4,
+      3
+    ],
+    "72b09167": [
+      "bayonet",
+      "Infarction",
+      4,
+      1
+    ],
+    "6a2e03e5": [
+      "bayonet",
+      "Jade",
+      4,
+      1
+    ],
+    "3c3e7f7e": [
+      "bayonet",
+      "Kin",
+      3,
+      3
+    ],
+    "6c337e43": [
+      "bayonet",
+      "Koi",
+      4,
+      1
+    ],
+    "7bda431f": [
+      "bayonet",
+      "Lashes",
+      4,
+      1
+    ],
+    "42e20418": [
+      "bayonet",
+      "Love Bites",
+      4,
+      1
+    ],
+    "2feb8f60": [
+      "bayonet",
+      "Loved",
+      4,
+      3
+    ],
+    "aba9d9c1": [
+      "bayonet",
+      "Lucky",
+      4,
+      3
+    ],
+    "09998c00": [
+      "bayonet",
+      "Luminescent",
+      4,
+      3
+    ],
+    "f201b63c": [
+      "bayonet",
+      "Lustre",
+      4,
+      1
+    ],
+    "90f2f8d8": [
+      "bayonet",
+      "Mintique Bayonet",
+      4,
+      3
+    ],
+    "08379d8a": [
+      "bayonet",
+      "Nerida",
+      4,
+      1
+    ],
+    "0d0e6afa": [
+      "bayonet",
+      "New",
+      4,
+      3
+    ],
+    "3afc455f": [
+      "bayonet",
+      "Old",
+      3,
+      3
+    ],
+    "3c88c1cd": [
+      "bayonet",
+      "Or",
+      4,
+      1
+    ],
+    "76cf863f": [
+      "bayonet",
+      "Ornaments",
+      4,
+      1
+    ],
+    "58ec980e": [
+      "bayonet",
+      "Pencil",
+      4,
+      3
+    ],
+    "08575901": [
+      "bayonet",
+      "Placate",
+      4,
+      1
+    ],
+    "9588750d": [
+      "bayonet",
+      "Polygon",
+      4,
+      1
+    ],
+    "eb218563": [
+      "bayonet",
+      "Prism",
+      4,
+      3
+    ],
+    "458d5cdc": [
+      "bayonet",
+      "Prismatic",
+      4,
+      3
+    ],
+    "6505bfe0": [
+      "bayonet",
+      "Punji",
+      4,
+      1
+    ],
+    "e04bb966": [
+      "bayonet",
+      "Pyrite",
+      4,
+      1
+    ],
+    "916f12b4": [
+      "bayonet",
+      "Radioactive",
+      3,
+      3
+    ],
+    "34a9f648": [
+      "bayonet",
+      "Ranked_S1 Bronze",
+      4,
+      3
+    ],
+    "36ea80c4": [
+      "bayonet",
+      "Ranked_S1 Gold",
+      4,
+      3
+    ],
+    "9a2ba588": [
+      "bayonet",
+      "Ranked_S1 Silver",
+      4,
+      3
+    ],
+    "09652c4c": [
+      "bayonet",
+      "Ranked_S1 Top10",
+      4,
+      3
+    ],
+    "340800bb": [
+      "bayonet",
+      "Ranked_S1 Top100",
+      4,
+      3
+    ],
+    "071fdd68": [
+      "bayonet",
+      "Ranked_S2 Bronze",
+      4,
+      3
+    ],
+    "38a7cde8": [
+      "bayonet",
+      "Ranked_S2 Gold",
+      4,
+      3
+    ],
+    "337d4c72": [
+      "bayonet",
+      "Ranked_S2 Silver",
+      4,
+      3
+    ],
+    "940fb392": [
+      "bayonet",
+      "Ranked_s2 Top10",
+      4,
+      3
+    ],
+    "41b9ab29": [
+      "bayonet",
+      "Ranked_S3 Bronze",
+      4,
+      3
+    ],
+    "31c7afd4": [
+      "bayonet",
+      "Ranked_S3 Gold",
+      4,
+      3
+    ],
+    "ce106229": [
+      "bayonet",
+      "Ranked_S3 Silver",
+      4,
+      3
+    ],
+    "05622ddb": [
+      "bayonet",
+      "Ranked_S3 Top10",
+      4,
+      3
+    ],
+    "24c8965d": [
+      "bayonet",
+      "Ranked_S3 Top100",
+      4,
+      3
+    ],
+    "980c5719": [
+      "bayonet",
+      "Ranked_S4 Bronze",
+      4,
+      3
+    ],
+    "ed4679c6": [
+      "bayonet",
+      "Ranked_S4 Gold",
+      4,
+      3
+    ],
+    "4ff918f4": [
+      "bayonet",
+      "Ranked_S4 Silver",
+      4,
+      3
+    ],
+    "692fc493": [
+      "bayonet",
+      "Ranked_S4 Top10",
+      4,
+      3
+    ],
+    "5f4dfc15": [
+      "bayonet",
+      "Ranked_S4 Top100",
+      4,
+      3
+    ],
+    "54efdeac": [
+      "bayonet",
+      "Rebel",
+      3,
+      3
+    ],
+    "f90a7614": [
+      "bayonet",
+      "Reflections",
+      4,
+      1
+    ],
+    "2d9358f1": [
+      "bayonet",
+      "Retro",
+      4,
+      1
+    ],
+    "092946a2": [
+      "bayonet",
+      "Rift",
+      4,
+      3
+    ],
+    "8c0d6fd3": [
+      "bayonet",
+      "Ritual",
+      4,
+      1
+    ],
+    "c22d628d": [
+      "bayonet",
+      "Saphire",
+      4,
+      3
+    ],
+    "0f3cf451": [
+      "bayonet",
+      "Sapphire",
+      4,
+      3
+    ],
+    "91b6942b": [
+      "bayonet",
+      "Saurus",
+      4,
+      3
+    ],
+    "979d7856": [
+      "bayonet",
+      "Shank",
+      4,
+      3
+    ],
+    "f9907930": [
+      "bayonet",
+      "Shard",
+      4,
+      1
+    ],
+    "095db02c": [
+      "bayonet",
+      "Shit(bayonet)",
+      4,
+      1
+    ],
+    "ce1daf47": [
+      "bayonet",
+      "Splash",
+      4,
+      3
+    ],
+    "b10da164": [
+      "bayonet",
+      "Spring",
+      4,
+      3
+    ],
+    "8060ab6e": [
+      "bayonet",
+      "Streaks",
+      4,
+      1
+    ],
+    "0313bdc8": [
+      "bayonet",
+      "Sunday",
+      4,
+      3
+    ],
+    "65a361a9": [
+      "bayonet",
+      "Thunder",
+      4,
+      3
+    ],
+    "e8df4123": [
+      "bayonet",
+      "Tiburon",
+      4,
+      1
+    ],
+    "475bc8d4": [
+      "bayonet",
+      "Tidal",
+      4,
+      3
+    ],
+    "9478f861": [
+      "bayonet",
+      "Tradition",
+      3,
+      1
+    ],
+    "cd5e52ad": [
+      "bayonet",
+      "Turtle",
+      4,
+      1
+    ],
+    "2e5a9caa": [
+      "bayonet",
+      "Twilight",
+      4,
+      1
+    ],
+    "137fe530": [
+      "bayonet",
+      "Tyrant",
+      4,
+      1
+    ],
+    "d629c96c": [
+      "bayonet",
+      "Tyrant2",
+      4,
+      3
+    ],
+    "d52d0780": [
+      "bayonet",
+      "Undead",
+      4,
+      1
+    ],
+    "dbd62944": [
+      "bayonet",
+      "Vampire",
+      4,
+      1
+    ],
+    "b37589dc": [
+      "bayonet",
+      "Vapor",
+      3,
+      1
+    ],
+    "dfad0879": [
+      "bayonet",
+      "Verde",
+      4,
+      3
+    ],
+    "ac7b8455": [
+      "bayonet",
+      "Vibrant",
+      4,
+      3
+    ],
+    "7a3706a3": [
+      "bayonet",
+      "Vision",
+      4,
+      3
+    ],
+    "ec42bd6d": [
+      "bayonet",
+      "Void(bayonet)",
+      4,
+      1
+    ],
+    "e7c26331": [
+      "bayonet",
+      "Worn Bayonet",
+      4,
+      3
+    ],
+    "8465ee39": [
+      "bayonet",
+      "Wrapping",
+      3,
+      3
+    ],
+    "7d987fe7": [
+      "bayonet",
+      "Zen",
+      3,
+      3
+    ],
+    "0bed9187": [
+      "revolver",
+      "Default(revolver)",
+      0,
+      0
+    ],
+    "e1697a4d": [
+      "revolver",
+      "Crimson",
+      0,
+      0
+    ],
+    "8fee292b": [
+      "revolver",
+      "Karo",
+      1,
+      0
+    ],
+    "c86a6ab3": [
+      "revolver",
+      "Atomic",
+      1,
+      0
+    ],
+    "2f927bbf": [
+      "revolver",
+      "Zzzz",
+      1,
+      0
+    ],
+    "ff5b697c": [
+      "revolver",
+      "Arctic Illusion",
+      1,
+      0
+    ],
+    "a6616c9d": [
+      "revolver",
+      "Monkey",
+      1,
+      0
+    ],
+    "63e5e23e": [
+      "revolver",
+      "Complexity",
+      2,
+      0
+    ],
+    "243cff90": [
+      "revolver",
+      "Blackout",
+      3,
+      0
+    ],
+    "d887e504": [
+      "revolver",
+      "Whiteout",
+      3,
+      0
+    ],
+    "1e7c8ef7": [
+      "revolver",
+      "Crystalized",
+      4,
+      0
+    ],
+    "d209e4f3": [
+      "revolver",
+      "Hologram",
+      4,
+      0
+    ],
+    "1d1bb223": [
+      "revolver",
+      "2025 Revolver",
+      4,
+      0
+    ],
+    "178a0b96": [
+      "revolver",
+      "Pulse",
+      4,
+      0
+    ],
+    "38f90929": [
+      "revolver",
+      "Ivorie",
+      4,
+      0
+    ],
+    "1c026589": [
+      "revolver",
+      "All Spark",
+      4,
+      0
+    ],
+    "1cdaa319": [
+      "revolver",
+      "Shit(revolver)",
+      4,
+      0
+    ],
+    "13fe4b0e": [
+      "revolver",
+      "Void(revolver)",
+      4,
+      2
+    ],
+    "5dc25140": [
+      "revolver",
+      "Mintique Revolver",
+      4,
+      2
+    ],
+    "f5b6f02a": [
+      "revolver",
+      "Cosmic Bliss",
+      4,
+      2
+    ],
+    "8c78f985": [
+      "revolver",
+      "Soak",
+      4,
+      2
+    ],
+    "d31916b5": [
+      "revolver",
+      "Tagged",
+      4,
+      2
+    ],
+    "41c22230": [
+      "revolver",
+      "Black Flame",
+      4,
+      2
+    ],
+    "eedc3823": [
+      "revolver",
+      "Carrot Blaster",
+      4,
+      2
+    ],
+    "87719b17": [
+      "revolver",
+      "Cartoon Revolver",
+      4,
+      2
+    ],
+    "006664a4": [
+      "revolver",
+      "Comic Revolver",
+      4,
+      2
+    ],
+    "45cb1051": [
+      "revolver",
+      "Hotrod Revolver",
+      4,
+      2
+    ],
+    "9007590d": [
+      "revolver",
+      "Wave Dot",
+      4,
+      2
+    ],
+    "d7b7a9b9": [
+      "revolver",
+      "Worn Revolver",
+      4,
+      2
+    ],
+    "9c4d759f": [
+      "lar",
+      "Astronova",
+      4,
+      0
+    ],
+    "4233f12f": [
+      "lar",
+      "Black Metal 2.0",
+      3,
+      0
+    ],
+    "158475bb": [
+      "lar",
+      "Blast(lar)",
+      4,
+      0
+    ],
+    "56df6104": [
+      "lar",
+      "Bush",
+      0,
+      0
+    ],
+    "6178eac4": [
+      "lar",
+      "Chess",
+      1,
+      0
+    ],
+    "af4b2f98": [
+      "lar",
+      "Chroma",
+      4,
+      0
+    ],
+    "516969de": [
+      "lar",
+      "Chromaflame",
+      4,
+      0
+    ],
+    "29a2d357": [
+      "lar",
+      "Comic LAR",
+      4,
+      2
+    ],
+    "9fe7409b": [
+      "lar",
+      "Cyber",
+      3,
+      0
+    ],
+    "0895d460": [
+      "lar",
+      "Cyber LAR",
+      4,
+      0
+    ],
+    "d97db214": [
+      "lar",
+      "Default(lar)",
+      0,
+      0
+    ],
+    "28058b11": [
+      "lar",
+      "Dragonic(lar)",
+      4,
+      0
+    ],
+    "76f02d7c": [
+      "lar",
+      "Fun",
+      1,
+      0
+    ],
+    "9746a9bb": [
+      "lar",
+      "Galaxy",
+      2,
+      0
+    ],
+    "c982112d": [
+      "lar",
+      "Korunami",
+      4,
+      0
+    ],
+    "2ea0151a": [
+      "lar",
+      "Kyoto",
+      1,
+      0
+    ],
+    "31b19729": [
+      "lar",
+      "Lava",
+      2,
+      0
+    ],
+    "df576343": [
+      "lar",
+      "Lux",
+      3,
+      0
+    ],
+    "f2591376": [
+      "lar",
+      "Normal Map",
+      3,
+      0
+    ],
+    "83803a81": [
+      "lar",
+      "Orbit",
+      3,
+      0
+    ],
+    "055d626c": [
+      "lar",
+      "Pecan",
+      0,
+      0
+    ],
+    "577e7175": [
+      "lar",
+      "Plum",
+      2,
+      0
+    ],
+    "aec33e85": [
+      "lar",
+      "Proton Beam",
+      3,
+      0
+    ],
+    "b417f6a2": [
+      "lar",
+      "Ramses",
+      4,
+      0
+    ],
+    "f0368ca2": [
+      "lar",
+      "Rar",
+      3,
+      0
+    ],
+    "c33a6837": [
+      "lar",
+      "Rasta",
+      2,
+      0
+    ],
+    "2ca8fec7": [
+      "lar",
+      "Redline",
+      1,
+      0
+    ],
+    "4da4e452": [
+      "lar",
+      "Rusty",
+      0,
+      0
+    ],
+    "7ccaded5": [
+      "lar",
+      "Saliman",
+      1,
+      0
+    ],
+    "e62ef98e": [
+      "lar",
+      "Shit(lar)",
+      4,
+      0
+    ],
+    "d15e1130": [
+      "lar",
+      "Simplicity",
+      2,
+      0
+    ],
+    "cf16a61a": [
+      "lar",
+      "Steely",
+      0,
+      0
+    ],
+    "d9c659f8": [
+      "lar",
+      "Summer",
+      1,
+      0
+    ],
+    "5c31594c": [
+      "lar",
+      "Supermind",
+      1,
+      0
+    ],
+    "cc007da5": [
+      "lar",
+      "Bloodbath",
+      4,
+      2
+    ],
+    "0531b12f": [
+      "lar",
+      "Cartoon LAR",
+      4,
+      2
+    ],
+    "0b548259": [
+      "lar",
+      "Carved Sky",
+      4,
+      2
+    ],
+    "71e79020": [
+      "lar",
+      "Dreamscape",
+      4,
+      2
+    ],
+    "e5920945": [
+      "lar",
+      "Feathered",
+      4,
+      2
+    ],
+    "d9b0e8b6": [
+      "lar",
+      "Garden",
+      4,
+      2
+    ],
+    "0cc42136": [
+      "lar",
+      "Gloopies",
+      4,
+      2
+    ],
+    "fb74207c": [
+      "lar",
+      "Heavy",
+      4,
+      2
+    ],
+    "ae2c32d8": [
+      "lar",
+      "HotRod(LAR)",
+      4,
+      2
+    ],
+    "ff1f09d1": [
+      "lar",
+      "Howl",
+      3,
+      2
+    ],
+    "4e91684e": [
+      "lar",
+      "MemeStar",
+      3,
+      2
+    ],
+    "87d4bcc2": [
+      "lar",
+      "Mintique LAR",
+      4,
+      2
+    ],
+    "5f7978a1": [
+      "lar",
+      "Shroomie",
+      4,
+      2
+    ],
+    "c14c4dc0": [
+      "lar",
+      "Synergy",
+      4,
+      2
+    ],
+    "042c08c6": [
+      "lar",
+      "Void(lar)",
+      4,
+      2
+    ],
+    "e6466ba4": [
+      "lar",
+      "Worn LAR",
+      4,
+      2
+    ],
+    "007a8cc7": [
+      "ar9",
+      "Admiral",
+      1,
+      0
+    ],
+    "4b365c7b": [
+      "ar9",
+      "Blast AR-9",
+      4,
+      0
+    ],
+    "b30d3b56": [
+      "ar9",
+      "Brown",
+      0,
+      0
+    ],
+    "c124f5f2": [
+      "ar9",
+      "Carbon Fade",
+      2,
+      0
+    ],
+    "90471bad": [
+      "ar9",
+      "Cloudy",
+      3,
+      0
+    ],
+    "5d461806": [
+      "ar9",
+      "Contrast",
+      1,
+      0
+    ],
+    "2cdd7e06": [
+      "ar9",
+      "Cyan",
+      1,
+      0
+    ],
+    "712520c8": [
+      "ar9",
+      "Cyber AR-9",
+      4,
+      0
+    ],
+    "78cff0b3": [
+      "ar9",
+      "Cyberpunk",
+      3,
+      0
+    ],
+    "1794de31": [
+      "ar9",
+      "Default(ar9)",
+      0,
+      0
+    ],
+    "8e1554e7": [
+      "ar9",
+      "Eva",
+      3,
+      0
+    ],
+    "116a1882": [
+      "ar9",
+      "Fabric",
+      0,
+      0
+    ],
+    "a57010fa": [
+      "ar9",
+      "Forbidden",
+      4,
+      0
+    ],
+    "e5c5cea5": [
+      "ar9",
+      "Godzilla",
+      3,
+      0
+    ],
+    "5b5b0f22": [
+      "ar9",
+      "Greg",
+      1,
+      0
+    ],
+    "ff8451b7": [
+      "ar9",
+      "Hannah",
+      2,
+      0
+    ],
+    "aeda089e": [
+      "ar9",
+      "Hotrod AR-9",
+      4,
+      2
+    ],
+    "d309dc06": [
+      "ar9",
+      "Infernal",
+      4,
+      0
+    ],
+    "407e2b98": [
+      "ar9",
+      "LEO",
+      2,
+      0
+    ],
+    "447db395": [
+      "ar9",
+      "Lightning",
+      2,
+      0
+    ],
+    "f253a712": [
+      "ar9",
+      "Mintique AR-9",
+      4,
+      2
+    ],
+    "27e51d79": [
+      "ar9",
+      "Moira",
+      2,
+      0
+    ],
+    "d383d67f": [
+      "ar9",
+      "Obsidian",
+      2,
+      0
+    ],
+    "0511dd11": [
+      "ar9",
+      "Pegas",
+      0,
+      0
+    ],
+    "a7d9306a": [
+      "ar9",
+      "Shit(ar9)",
+      4,
+      0
+    ],
+    "c8045b38": [
+      "ar9",
+      "Sky",
+      0,
+      0
+    ],
+    "e6493ba4": [
+      "ar9",
+      "Spectacular",
+      2,
+      0
+    ],
+    "ab532b56": [
+      "ar9",
+      "Spilled",
+      0,
+      0
+    ],
+    "9bfb1956": [
+      "ar9",
+      "undefined",
+      4,
+      2
+    ],
+    "a4f53be0": [
+      "ar9",
+      "Underwater",
+      4,
+      0
+    ],
+    "9b76bd53": [
+      "ar9",
+      "Zelda",
+      0,
+      0
+    ],
+    "8ce6a413": [
+      "ar9",
+      "Astral",
+      4,
+      2
+    ],
+    "a7010aea": [
+      "ar9",
+      "Awakened",
+      4,
+      2
+    ],
+    "84224ec8": [
+      "ar9",
+      "Bound",
+      4,
+      2
+    ],
+    "402fd68b": [
+      "ar9",
+      "Canvas",
+      4,
+      2
+    ],
+    "8a310b8e": [
+      "ar9",
+      "Cartoon AR-9",
+      4,
+      2
+    ],
+    "57b7e15d": [
+      "ar9",
+      "Comic AR-9",
+      4,
+      2
+    ],
+    "e1207d0b": [
+      "ar9",
+      "Crazy",
+      3,
+      2
+    ],
+    "63ea4d0b": [
+      "ar9",
+      "Dragonic AR-9",
+      4,
+      2
+    ],
+    "434799eb": [
+      "ar9",
+      "Master",
+      3,
+      2
+    ],
+    "bb991ea9": [
+      "ar9",
+      "Metro",
+      4,
+      2
+    ],
+    "3c24fb35": [
+      "ar9",
+      "Mintastic",
+      4,
+      2
+    ],
+    "898a8a9c": [
+      "ar9",
+      "Mommy",
+      3,
+      2
+    ],
+    "c63d4963": [
+      "ar9",
+      "Solitude",
+      4,
+      2
+    ],
+    "09e86a33": [
+      "ar9",
+      "Squeezer",
+      4,
+      2
+    ],
+    "1e3daeb2": [
+      "ar9",
+      "Void(ar9)",
+      4,
+      2
+    ],
+    "a73f043a": [
+      "ar9",
+      "Worn AR-9",
+      4,
+      2
+    ],
+    "dce633f2": [
+      "wheatie",
+      "Alien",
+      3,
+      0
+    ],
+    "ec4439c0": [
+      "wheatie",
+      "Aztek",
+      3,
+      0
+    ],
+    "a2603e1a": [
+      "wheatie",
+      "Blast Weatie",
+      4,
+      0
+    ],
+    "f8037cda": [
+      "wheatie",
+      "Bubblegum",
+      1,
+      0
+    ],
+    "212a85fe": [
+      "wheatie",
+      "Default(wheatie)",
+      0,
+      0
+    ],
+    "29bbade0": [
+      "wheatie",
+      "Evening",
+      0,
+      0
+    ],
+    "6aa95796": [
+      "wheatie",
+      "Fading Waves",
+      2,
+      0
+    ],
+    "640e59c7": [
+      "wheatie",
+      "Glacial",
+      2,
+      0
+    ],
+    "00f31be9": [
+      "wheatie",
+      "Grass",
+      1,
+      0
+    ],
+    "53cb1ebd": [
+      "wheatie",
+      "Hotrod Weatie",
+      4,
+      2
+    ],
+    "a64eb661": [
+      "wheatie",
+      "Iron",
+      0,
+      0
+    ],
+    "ea621165": [
+      "wheatie",
+      "Isolation",
+      1,
+      0
+    ],
+    "f9aafb3a": [
+      "wheatie",
+      "Jap",
+      3,
+      0
+    ],
+    "e5f4bb71": [
+      "wheatie",
+      "Neon",
+      2,
+      0
+    ],
+    "307d3ebc": [
+      "wheatie",
+      "Noir",
+      0,
+      0
+    ],
+    "d471899a": [
+      "wheatie",
+      "Nuclear Waste",
+      1,
+      0
+    ],
+    "f700138d": [
+      "wheatie",
+      "Shit Weatie",
+      4,
+      0
+    ],
+    "3d8057f7": [
+      "wheatie",
+      "Swamp",
+      0,
+      0
+    ],
+    "c6dc5171": [
+      "wheatie",
+      "Teflon",
+      3,
+      0
+    ],
+    "03822b23": [
+      "wheatie",
+      "Try",
+      1,
+      0
+    ],
+    "f4defa7a": [
+      "wheatie",
+      "Violet",
+      0,
+      0
+    ],
+    "a080820e": [
+      "wheatie",
+      "Wacky",
+      3,
+      0
+    ],
+    "6dcb5921": [
+      "wheatie",
+      "Winter",
+      2,
+      0
+    ],
+    "68000c0b": [
+      "wheatie",
+      "Yellow Camo",
+      0,
+      0
+    ],
+    "e07f0311": [
+      "wheatie",
+      "Cartoon Weatie",
+      4,
+      2
+    ],
+    "9213d32a": [
+      "wheatie",
+      "Comic Weatie",
+      4,
+      2
+    ],
+    "df364a25": [
+      "wheatie",
+      "Curry",
+      2,
+      2
+    ],
+    "a9f184b9": [
+      "wheatie",
+      "Cyber Weatie",
+      4,
+      2
+    ],
+    "eacb0ea9": [
+      "wheatie",
+      "Dragonic Weatie",
+      4,
+      2
+    ],
+    "496fae24": [
+      "wheatie",
+      "Mintique Weatie",
+      4,
+      2
+    ],
+    "9a6eeedf": [
+      "wheatie",
+      "Smoothie",
+      4,
+      2
+    ],
+    "cd3ca15d": [
+      "wheatie",
+      "Sweetie",
+      4,
+      2
+    ],
+    "4136dd12": [
+      "wheatie",
+      "Toxic",
+      2,
+      2
+    ],
+    "9533134f": [
+      "wheatie",
+      "Void Weatie",
+      4,
+      2
+    ],
+    "9812d834": [
+      "wheatie",
+      "Worn Weatie",
+      4,
+      2
+    ],
+    "b7bbd9e2": [
+      "mac10",
+      "Andromeda",
+      3,
+      0
+    ],
+    "447306c7": [
+      "mac10",
+      "Beet",
+      0,
+      0
+    ],
+    "da86af9f": [
+      "mac10",
+      "Blast MAC-10",
+      4,
+      0
+    ],
+    "c3724579": [
+      "mac10",
+      "Bloody",
+      0,
+      0
+    ],
+    "d3adef11": [
+      "mac10",
+      "Clover",
+      4,
+      0
+    ],
+    "1123424b": [
+      "mac10",
+      "Crystal",
+      1,
+      0
+    ],
+    "a3dbc512": [
+      "mac10",
+      "Cyber MAC-10",
+      4,
+      0
+    ],
+    "82dc8420": [
+      "mac10",
+      "Dandelion",
+      0,
+      0
+    ],
+    "36d894bd": [
+      "mac10",
+      "Default(mac10)",
+      0,
+      0
+    ],
+    "6ad30f6f": [
+      "mac10",
+      "Distortion",
+      4,
+      0
+    ],
+    "1522c96a": [
+      "mac10",
+      "Donut",
+      1,
+      0
+    ],
+    "d8ac4f7b": [
+      "mac10",
+      "Dragonic MAC-10",
+      4,
+      0
+    ],
+    "b36182e9": [
+      "mac10",
+      "Fire",
+      3,
+      0
+    ],
+    "ccb5ce93": [
+      "mac10",
+      "Hotrod MAC-10",
+      4,
+      2
+    ],
+    "f011b25f": [
+      "mac10",
+      "Land",
+      0,
+      0
+    ],
+    "dc1f481b": [
+      "mac10",
+      "Lemon",
+      1,
+      0
+    ],
+    "170f1c4c": [
+      "mac10",
+      "Malachite",
+      1,
+      0
+    ],
+    "8e28c872": [
+      "mac10",
+      "Marbled",
+      0,
+      0
+    ],
+    "3946b87a": [
+      "mac10",
+      "Maxwell",
+      1,
+      0
+    ],
+    "a8ff78e2": [
+      "mac10",
+      "Milo",
+      2,
+      0
+    ],
+    "963aedb7": [
+      "mac10",
+      "Mindframe",
+      4,
+      0
+    ],
+    "7ddc610d": [
+      "mac10",
+      "Molten Core",
+      2,
+      0
+    ],
+    "30aa91f0": [
+      "mac10",
+      "Moonlight",
+      4,
+      0
+    ],
+    "57576da2": [
+      "mac10",
+      "Pool Blaster",
+      3,
+      0
+    ],
+    "03822f62": [
+      "mac10",
+      "Red Reaper",
+      3,
+      0
+    ],
+    "b581cb81": [
+      "mac10",
+      "Retrowave",
+      3,
+      2
+    ],
+    "37a0597d": [
+      "mac10",
+      "Rub1x",
+      4,
+      0
+    ],
+    "5318d43f": [
+      "mac10",
+      "Schaedel",
+      4,
+      0
+    ],
+    "3618efb0": [
+      "mac10",
+      "Shit MAC-10",
+      4,
+      0
+    ],
+    "1842fd3b": [
+      "mac10",
+      "Sleep",
+      1,
+      0
+    ],
+    "4dcbe03f": [
+      "mac10",
+      "Spectrum",
+      4,
+      0
+    ],
+    "222162fb": [
+      "mac10",
+      "Striped",
+      0,
+      0
+    ],
+    "8655fb35": [
+      "mac10",
+      "Strips",
+      2,
+      0
+    ],
+    "708af03a": [
+      "mac10",
+      "Tingey",
+      0,
+      0
+    ],
+    "92bb920f": [
+      "mac10",
+      "Toy",
+      3,
+      0
+    ],
+    "5b267791": [
+      "mac10",
+      "Uncanny",
+      4,
+      0
+    ],
+    "2679e4f7": [
+      "mac10",
+      "Aberrant",
+      4,
+      2
+    ],
+    "12f54189": [
+      "mac10",
+      "Cartoon MAC-10",
+      4,
+      2
+    ],
+    "016cc28a": [
+      "mac10",
+      "Comic MAC-10",
+      4,
+      2
+    ],
+    "ec953141": [
+      "mac10",
+      "Mintique MAC-10",
+      4,
+      2
+    ],
+    "d81aaa6a": [
+      "mac10",
+      "Prisma",
+      4,
+      2
+    ],
+    "4f34e782": [
+      "mac10",
+      "S4TANSITO",
+      4,
+      2
+    ],
+    "10e5a605": [
+      "mac10",
+      "Tag",
+      4,
+      2
+    ],
+    "6cc90494": [
+      "mac10",
+      "Void MAC-10",
+      4,
+      2
+    ],
+    "e9eff9fe": [
+      "mac10",
+      "Worn MAC-10",
+      4,
+      2
+    ],
+    "61d0c947": [
+      "mac10",
+      "Zephyr",
+      4,
+      2
+    ],
+    "c88d489e": [
+      "scar",
+      "Awesome",
+      3,
+      0
+    ],
+    "e6a3a557": [
+      "scar",
+      "Blast SCAR",
+      4,
+      0
+    ],
+    "228a7fa5": [
+      "scar",
+      "Camouflage",
+      0,
+      0
+    ],
+    "676d0b08": [
+      "scar",
+      "Cargo",
+      3,
+      0
+    ],
+    "22b5838b": [
+      "scar",
+      "Cyber SCAR",
+      4,
+      0
+    ],
+    "b3fc7981": [
+      "scar",
+      "Default(scar)",
+      0,
+      0
+    ],
+    "14e76408": [
+      "scar",
+      "Fever",
+      4,
+      0
+    ],
+    "5f54c487": [
+      "scar",
+      "Forest",
+      1,
+      0
+    ],
+    "0cc519dc": [
+      "scar",
+      "Friendly",
+      0,
+      0
+    ],
+    "3d232bcb": [
+      "scar",
+      "Heart",
+      2,
+      0
+    ],
+    "a77fc965": [
+      "scar",
+      "Hotrod SCAR",
+      4,
+      2
+    ],
+    "f7468052": [
+      "scar",
+      "Lantern",
+      2,
+      0
+    ],
+    "6eddde93": [
+      "scar",
+      "Metallic",
+      1,
+      0
+    ],
+    "11703c18": [
+      "scar",
+      "Military",
+      0,
+      0
+    ],
+    "70fb8f2f": [
+      "scar",
+      "Nova",
+      4,
+      0
+    ],
+    "d22d73fd": [
+      "scar",
+      "Oblivion",
+      4,
+      0
+    ],
+    "7f9249d5": [
+      "scar",
+      "Pale",
+      0,
+      0
+    ],
+    "52e52b53": [
+      "scar",
+      "Picea",
+      0,
+      0
+    ],
+    "4bac2dbf": [
+      "scar",
+      "Pineapple",
+      1,
+      0
+    ],
+    "0f00c5fa": [
+      "scar",
+      "Psycho",
+      3,
+      0
+    ],
+    "a08b6252": [
+      "scar",
+      "Rainbow",
+      2,
+      0
+    ],
+    "c14b67f7": [
+      "scar",
+      "Sakura",
+      2,
+      0
+    ],
+    "4f6543bb": [
+      "scar",
+      "Scarey",
+      2,
+      0
+    ],
+    "bf0f54ca": [
+      "scar",
+      "Scarlet",
+      3,
+      0
+    ],
+    "2dab79ca": [
+      "scar",
+      "Shiny",
+      1,
+      0
+    ],
+    "ffc6076d": [
+      "scar",
+      "Shit SCAR",
+      4,
+      0
+    ],
+    "3cd56e69": [
+      "scar",
+      "Sketched",
+      4,
+      0
+    ],
+    "ce95708d": [
+      "scar",
+      "Spicy",
+      0,
+      0
+    ],
+    "d12855b6": [
+      "scar",
+      "Stripes",
+      0,
+      0
+    ],
+    "ec0dbccf": [
+      "scar",
+      "Ticketeer",
+      4,
+      0
+    ],
+    "6484c238": [
+      "scar",
+      "Tide",
+      3,
+      0
+    ],
+    "f1d8ee7d": [
+      "scar",
+      "Universe",
+      2,
+      0
+    ],
+    "dd509c82": [
+      "scar",
+      "Vocaloid",
+      3,
+      0
+    ],
+    "d18b0ee5": [
+      "scar",
+      "Volcano",
+      1,
+      0
+    ],
+    "c800de1d": [
+      "scar",
+      "Waves",
+      3,
+      0
+    ],
+    "b019ec6c": [
+      "scar",
+      "Wax Paper",
+      4,
+      2
+    ],
+    "8d44d9a0": [
+      "scar",
+      "Apollo",
+      4,
+      2
+    ],
+    "2909338c": [
+      "scar",
+      "Cartoon SCAR",
+      4,
+      2
+    ],
+    "169657c3": [
+      "scar",
+      "Chromatose",
+      4,
+      2
+    ],
+    "3674ccc0": [
+      "scar",
+      "Comic SCAR",
+      4,
+      2
+    ],
+    "45c269e2": [
+      "scar",
+      "Demon",
+      3,
+      2
+    ],
+    "afbb06a4": [
+      "scar",
+      "DMT",
+      4,
+      2
+    ],
+    "025c48df": [
+      "scar",
+      "Dragonic SCAR",
+      4,
+      2
+    ],
+    "fc42a65f": [
+      "scar",
+      "Imperial",
+      4,
+      2
+    ],
+    "f5a0fd99": [
+      "scar",
+      "Maple",
+      4,
+      2
+    ],
+    "c716577e": [
+      "scar",
+      "Mintique SCAR",
+      4,
+      2
+    ],
+    "f4cdc391": [
+      "scar",
+      "Neo2",
+      4,
+      2
+    ],
+    "2cc657c1": [
+      "scar",
+      "Nexus",
+      4,
+      2
+    ],
+    "98db1163": [
+      "scar",
+      "Sine",
+      4,
+      2
+    ],
+    "7914208b": [
+      "scar",
+      "Sweetshot",
+      4,
+      2
+    ],
+    "082f1b29": [
+      "scar",
+      "TMPlate",
+      4,
+      2
+    ],
+    "340c5a40": [
+      "scar",
+      "Ultraviolet",
+      4,
+      2
+    ],
+    "3bbf1256": [
+      "scar",
+      "Void SCAR",
+      4,
+      2
+    ],
+    "7fb29008": [
+      "scar",
+      "Whispers",
+      4,
+      2
+    ],
+    "c0ebe037": [
+      "scar",
+      "Worn SCAR",
+      4,
+      2
+    ],
+    "16d0d738": [
+      "scar",
+      "ZG-Mario",
+      4,
+      2
+    ],
+    "4f869af8": [
+      "vita",
+      "2025 Vita",
+      4,
+      0
+    ],
+    "ca33dc57": [
+      "vita",
+      "Abstraction",
+      4,
+      0
+    ],
+    "ac52267a": [
+      "vita",
+      "Anarchy",
+      4,
+      0
+    ],
+    "c066ed8a": [
+      "vita",
+      "Arachne",
+      4,
+      0
+    ],
+    "f077d21e": [
+      "vita",
+      "Arcade",
+      4,
+      0
+    ],
+    "b858952b": [
+      "vita",
+      "Astra",
+      4,
+      0
+    ],
+    "083e4bb0": [
+      "vita",
+      "Bamboo",
+      4,
+      0
+    ],
+    "40f5e4e7": [
+      "vita",
+      "Bansee",
+      4,
+      0
+    ],
+    "6cd2ce3e": [
+      "vita",
+      "Black Metal",
+      3,
+      0
+    ],
+    "727a0408": [
+      "vita",
+      "Blast VITA",
+      4,
+      0
+    ],
+    "72890e44": [
+      "vita",
+      "Blood Crystal",
+      2,
+      0
+    ],
+    "013b4936": [
+      "vita",
+      "Blue Hell",
+      3,
+      0
+    ],
+    "be21a709": [
+      "vita",
+      "Blueberry",
+      1,
+      0
+    ],
+    "822b8fbc": [
+      "vita",
+      "Candy Illusion",
+      2,
+      0
+    ],
+    "279c442a": [
+      "vita",
+      "Cassiope",
+      4,
+      0
+    ],
+    "b3b1cdd0": [
+      "vita",
+      "CheckUV",
+      3,
+      0
+    ],
+    "df40e2ab": [
+      "vita",
+      "Chromatic",
+      3,
+      0
+    ],
+    "af822d2d": [
+      "vita",
+      "Circuit",
+      0,
+      0
+    ],
+    "a370d730": [
+      "vita",
+      "Comic VITA",
+      4,
+      2
+    ],
+    "11b63cf9": [
+      "vita",
+      "Cosmos",
+      4,
+      0
+    ],
+    "7442f838": [
+      "vita",
+      "Cover",
+      0,
+      0
+    ],
+    "a42170f7": [
+      "vita",
+      "Cult",
+      2,
+      0
+    ],
+    "74d78c11": [
+      "vita",
+      "Cyber VITA",
+      4,
+      0
+    ],
+    "b44df763": [
+      "vita",
+      "Cyborg",
+      3,
+      0
+    ],
+    "2e2a5777": [
+      "vita",
+      "Darling",
+      3,
+      0
+    ],
+    "b2a49027": [
+      "vita",
+      "Default(vita)",
+      0,
+      0
+    ],
+    "029e582f": [
+      "vita",
+      "Dragonic VITA",
+      4,
+      0
+    ],
+    "856aa7c8": [
+      "vita",
+      "Dynastie",
+      4,
+      2
+    ],
+    "d167dda9": [
+      "vita",
+      "Empress",
+      3,
+      0
+    ],
+    "8b66103e": [
+      "vita",
+      "Fallen",
+      4,
+      2
+    ],
+    "93f4f41d": [
+      "vita",
+      "Fallout",
+      4,
+      0
+    ],
+    "fb0e518f": [
+      "vita",
+      "Fluorescent",
+      4,
+      2
+    ],
+    "418f78ac": [
+      "vita",
+      "Fragile",
+      4,
+      0
+    ],
+    "5b363e08": [
+      "vita",
+      "Fudge",
+      4,
+      0
+    ],
+    "064ee79e": [
+      "vita",
+      "Fur",
+      2,
+      0
+    ],
+    "b918b7ed": [
+      "vita",
+      "Ghost",
+      2,
+      0
+    ],
+    "97cd94f1": [
+      "vita",
+      "Gilded",
+      3,
+      0
+    ],
+    "712b1e0f": [
+      "vita",
+      "Globe",
+      3,
+      0
+    ],
+    "4211f160": [
+      "vita",
+      "Gotmilk",
+      4,
+      2
+    ],
+    "d0d15ce2": [
+      "vita",
+      "Hardened",
+      2,
+      0
+    ],
+    "a5039865": [
+      "vita",
+      "Heatwave",
+      3,
+      0
+    ],
+    "3ab2c259": [
+      "vita",
+      "Helendus",
+      4,
+      2
+    ],
+    "80fc9c6d": [
+      "vita",
+      "Hotrod VITA",
+      4,
+      2
+    ],
+    "dada529f": [
+      "vita",
+      "Hubbard",
+      2,
+      0
+    ],
+    "3fe9ba92": [
+      "vita",
+      "Hunter",
+      0,
+      0
+    ],
+    "f7042e33": [
+      "vita",
+      "Jingles",
+      4,
+      2
+    ],
+    "452cb966": [
+      "vita",
+      "Labyrinth",
+      3,
+      2
+    ],
+    "f887b1c3": [
+      "vita",
+      "Landoh",
+      3,
+      0
+    ],
+    "bd57e840": [
+      "vita",
+      "Leopard",
+      1,
+      0
+    ],
+    "d0ae7c29": [
+      "vita",
+      "Liberty",
+      3,
+      0
+    ],
+    "79566d54": [
+      "vita",
+      "Machinery",
+      3,
+      0
+    ],
+    "4d4cb64d": [
+      "vita",
+      "Magma",
+      1,
+      0
+    ],
+    "bad76532": [
+      "vita",
+      "Metallic Rainbow",
+      3,
+      0
+    ],
+    "f6f06f59": [
+      "vita",
+      "Meteor",
+      4,
+      0
+    ],
+    "667ff4c3": [
+      "vita",
+      "Mirror",
+      4,
+      2
+    ],
+    "a5fbd91e": [
+      "vita",
+      "Mohito",
+      1,
+      0
+    ],
+    "f5083f82": [
+      "vita",
+      "Nebula",
+      2,
+      0
+    ],
+    "f65ad748": [
+      "vita",
+      "Noble",
+      3,
+      0
+    ],
+    "fd5e97c0": [
+      "vita",
+      "Nyan Cat",
+      3,
+      2
+    ],
+    "42acf0d4": [
+      "vita",
+      "Paques",
+      2,
+      2
+    ],
+    "d6b757cb": [
+      "vita",
+      "Peachy",
+      2,
+      0
+    ],
+    "f8e28e85": [
+      "vita",
+      "Pink Camouflage",
+      1,
+      0
+    ],
+    "b617ccae": [
+      "vita",
+      "Playmate",
+      4,
+      0
+    ],
+    "e4be1f8d": [
+      "vita",
+      "Polychrome",
+      3,
+      0
+    ],
+    "8c7a041f": [
+      "vita",
+      "Polygun",
+      1,
+      0
+    ],
+    "164aadd4": [
+      "vita",
+      "Quilliam",
+      4,
+      0
+    ],
+    "9f06ee68": [
+      "vita",
+      "RedMoon",
+      0,
+      0
+    ],
+    "7d6c666d": [
+      "vita",
+      "Reptile",
+      1,
+      0
+    ],
+    "b17f5b02": [
+      "vita",
+      "Rogue",
+      3,
+      0
+    ],
+    "39306db3": [
+      "vita",
+      "Sam",
+      3,
+      0
+    ],
+    "a2ac54d2": [
+      "vita",
+      "Santa",
+      3,
+      0
+    ],
+    "d2aff57e": [
+      "vita",
+      "Scale",
+      1,
+      0
+    ],
+    "5ff5c8dc": [
+      "vita",
+      "Shit(vita)",
+      4,
+      0
+    ],
+    "1f92e8a0": [
+      "vita",
+      "Shotdead",
+      4,
+      0
+    ],
+    "5b0ea082": [
+      "vita",
+      "Silver Bullet",
+      4,
+      2
+    ],
+    "22c7c91b": [
+      "vita",
+      "Slayer",
+      4,
+      0
+    ],
+    "67faf671": [
+      "vita",
+      "Sleepy",
+      4,
+      0
+    ],
+    "a80c0991": [
+      "vita",
+      "Smile",
+      4,
+      0
+    ],
+    "118d130d": [
+      "vita",
+      "Splanch",
+      4,
+      2
+    ],
+    "286a4f50": [
+      "vita",
+      "Spooky",
+      4,
+      0
+    ],
+    "8f6447bb": [
+      "vita",
+      "Spoooky",
+      4,
+      0
+    ],
+    "bd9c1161": [
+      "vita",
+      "Spotted",
+      1,
+      0
+    ],
+    "cb1758e1": [
+      "vita",
+      "Static",
+      4,
+      0
+    ],
+    "2b30a4df": [
+      "vita",
+      "Sunset",
+      3,
+      0
+    ],
+    "35770b90": [
+      "vita",
+      "Sweater",
+      3,
+      2
+    ],
+    "260ff1c3": [
+      "vita",
+      "Terminator",
+      3,
+      0
+    ],
+    "3035a0c5": [
+      "vita",
+      "Thief",
+      3,
+      0
+    ],
+    "e9701eb0": [
+      "vita",
+      "Trolled",
+      3,
+      0
+    ],
+    "cb09342f": [
+      "vita",
+      "Ukiyo",
+      4,
+      2
+    ],
+    "c865d308": [
+      "vita",
+      "Vintage",
+      4,
+      0
+    ],
+    "b80eeb88": [
+      "vita",
+      "Vivid",
+      3,
+      0
+    ],
+    "449f442b": [
+      "vita",
+      "Void(vita)",
+      4,
+      2
+    ],
+    "afe0df37": [
+      "vita",
+      "Watery",
+      0,
+      0
+    ],
+    "5ebd9b7e": [
+      "vita",
+      "Wrap",
+      3,
+      0
+    ],
+    "37d2ff15": [
+      "vita",
+      "Blush",
+      4,
+      2
+    ],
+    "66f47bcf": [
+      "vita",
+      "Bros",
+      4,
+      2
+    ],
+    "47202c0b": [
+      "vita",
+      "Cartoon VITA",
+      4,
+      2
+    ],
+    "55c3f576": [
+      "vita",
+      "Cherries",
+      4,
+      2
+    ],
+    "8bc6427f": [
+      "vita",
+      "Ekko",
+      4,
+      2
+    ],
+    "0114f302": [
+      "vita",
+      "Elves",
+      5,
+      2
+    ],
+    "82af3cef": [
+      "vita",
+      "Flowstate",
+      4,
+      2
+    ],
+    "b5fd8a94": [
+      "vita",
+      "Fractal",
+      4,
+      2
+    ],
+    "432c94c2": [
+      "vita",
+      "Gift",
+      2,
+      2
+    ],
+    "6f5f8ca7": [
+      "vita",
+      "Gingerbread",
+      4,
+      2
+    ],
+    "364a1f2a": [
+      "vita",
+      "Gold",
+      3,
+      2
+    ],
+    "6ad6a64a": [
+      "vita",
+      "HoHoHo",
+      4,
+      2
+    ],
+    "8c56c7aa": [
+      "vita",
+      "Legend",
+      3,
+      2
+    ],
+    "a9e4ea9c": [
+      "vita",
+      "Love",
+      3,
+      2
+    ],
+    "61f1b0de": [
+      "vita",
+      "Lunar",
+      4,
+      2
+    ],
+    "f52d369f": [
+      "vita",
+      "Mintique Vita",
+      4,
+      2
+    ],
+    "3fd3ec14": [
+      "vita",
+      "Neo",
+      4,
+      2
+    ],
+    "9d71277d": [
+      "vita",
+      "Panda Pug",
+      4,
+      2
+    ],
+    "1d81e7a0": [
+      "vita",
+      "Peakers",
+      4,
+      2
+    ],
+    "8c9c5577": [
+      "vita",
+      "Pharao",
+      4,
+      2
+    ],
+    "10028eac": [
+      "vita",
+      "Radiance",
+      4,
+      2
+    ],
+    "15cd460c": [
+      "vita",
+      "Rosy",
+      4,
+      2
+    ],
+    "4fc20b34": [
+      "vita",
+      "Runes",
+      3,
+      2
+    ],
+    "8d392c00": [
+      "vita",
+      "Samurai",
+      2,
+      2
+    ],
+    "6ebfbda6": [
+      "vita",
+      "Scary Web",
+      4,
+      2
+    ],
+    "8ad4c97c": [
+      "vita",
+      "Subnautic",
+      4,
+      2
+    ],
+    "1640309a": [
+      "vita",
+      "Wasteland",
+      4,
+      2
+    ],
+    "e28fd614": [
+      "vita",
+      "Watercolor",
+      4,
+      2
+    ],
+    "4b021644": [
+      "vita",
+      "Wicked",
+      4,
+      2
+    ],
+    "27b557f7": [
+      "vita",
+      "Wiggleworp",
+      5,
+      2
+    ],
+    "1a0a51f1": [
+      "vita",
+      "Winkler",
+      4,
+      2
+    ],
+    "87737c82": [
+      "vita",
+      "Worn VITA",
+      4,
+      2
+    ],
+    "74c78eb8": [
+      "shark",
+      "1337",
+      4,
+      0
+    ],
+    "3d216747": [
+      "shark",
+      "2025 Shark",
+      4,
+      0
+    ],
+    "30e7f67e": [
+      "shark",
+      "Ambrosia",
+      4,
+      0
+    ],
+    "773c16e4": [
+      "shark",
+      "Aries",
+      4,
+      0
+    ],
+    "d4de5b25": [
+      "shark",
+      "Azure",
+      3,
+      0
+    ],
+    "e8dc4fec": [
+      "shark",
+      "Back To School",
+      4,
+      0
+    ],
+    "916f63cd": [
+      "shark",
+      "Bay",
+      3,
+      0
+    ],
+    "24738f5d": [
+      "shark",
+      "Billion",
+      4,
+      0
+    ],
+    "24ea5b02": [
+      "shark",
+      "Blast Shark",
+      4,
+      0
+    ],
+    "d778968c": [
+      "shark",
+      "Candy",
+      3,
+      2
+    ],
+    "a05e5a7a": [
+      "shark",
+      "Celebrate",
+      3,
+      0
+    ],
+    "437045e5": [
+      "shark",
+      "Cheesy",
+      3,
+      2
+    ],
+    "5c1256f8": [
+      "shark",
+      "Comic Shark",
+      4,
+      2
+    ],
+    "e6e60fe1": [
+      "shark",
+      "Cyber Shark",
+      4,
+      0
+    ],
+    "8077c602": [
+      "shark",
+      "Decorations",
+      4,
+      0
+    ],
+    "6c8a6582": [
+      "shark",
+      "Default(shark)",
+      0,
+      0
+    ],
+    "a8c46327": [
+      "shark",
+      "Diamond",
+      4,
+      2
+    ],
+    "f3fb3a84": [
+      "shark",
+      "Diane",
+      4,
+      0
+    ],
+    "41443a9b": [
+      "shark",
+      "Dragon Shark",
+      4,
+      0
+    ],
+    "299dc29d": [
+      "shark",
+      "Dragonic Shark",
+      4,
+      0
+    ],
+    "81dbb575": [
+      "shark",
+      "Egg Hunt",
+      4,
+      0
+    ],
+    "7b0ba436": [
+      "shark",
+      "Elysian",
+      4,
+      2
+    ],
+    "f80bd393": [
+      "shark",
+      "Exhibit A",
+      4,
+      2
+    ],
+    "98a2ba47": [
+      "shark",
+      "Flower",
+      4,
+      0
+    ],
+    "708483c9": [
+      "shark",
+      "Fortunate",
+      4,
+      0
+    ],
+    "ec34644c": [
+      "shark",
+      "Heartbeat",
+      4,
+      0
+    ],
+    "ce29b6bb": [
+      "shark",
+      "Hearted",
+      4,
+      2
+    ],
+    "173a7352": [
+      "shark",
+      "Hellbent",
+      4,
+      0
+    ],
+    "b22fef67": [
+      "shark",
+      "Hotrod Shark",
+      4,
+      2
+    ],
+    "0c413c40": [
+      "shark",
+      "Ice Cold",
+      3,
+      0
+    ],
+    "4389c144": [
+      "shark",
+      "Kindergarten",
+      4,
+      2
+    ],
+    "f32964ce": [
+      "shark",
+      "Kitty",
+      4,
+      2
+    ],
+    "38f2b013": [
+      "shark",
+      "Kraken",
+      3,
+      0
+    ],
+    "8177571b": [
+      "shark",
+      "Lustar",
+      4,
+      2
+    ],
+    "a411f41a": [
+      "shark",
+      "Magic",
+      4,
+      0
+    ],
+    "0a71f68d": [
+      "shark",
+      "Majestic",
+      4,
+      0
+    ],
+    "08869f0a": [
+      "shark",
+      "Marble",
+      4,
+      2
+    ],
+    "d5a9744b": [
+      "shark",
+      "Megalodon",
+      3,
+      0
+    ],
+    "cf1ce7bc": [
+      "shark",
+      "Mintique Shark",
+      4,
+      2
+    ],
+    "09be60d5": [
+      "shark",
+      "Monarch",
+      4,
+      0
+    ],
+    "4e509f8c": [
+      "shark",
+      "Mossy",
+      3,
+      0
+    ],
+    "b0526123": [
+      "shark",
+      "New Year",
+      2,
+      2
+    ],
+    "f0dd4291": [
+      "shark",
+      "Nyan Shark",
+      4,
+      0
+    ],
+    "084685ca": [
+      "shark",
+      "Omen",
+      4,
+      2
+    ],
+    "b1274ff6": [
+      "shark",
+      "Orchid",
+      4,
+      0
+    ],
+    "c86f9155": [
+      "shark",
+      "P-40",
+      3,
+      2
+    ],
+    "0137dc71": [
+      "shark",
+      "Petal",
+      3,
+      0
+    ],
+    "a7bdabd2": [
+      "shark",
+      "Playdate",
+      4,
+      2
+    ],
+    "156d427d": [
+      "shark",
+      "Present",
+      3,
+      2
+    ],
+    "b2478864": [
+      "shark",
+      "PXL",
+      4,
+      2
+    ],
+    "fe30bcb3": [
+      "shark",
+      "Rabbit",
+      4,
+      0
+    ],
+    "af7fe802": [
+      "shark",
+      "Regal",
+      4,
+      2
+    ],
+    "667b7bc7": [
+      "shark",
+      "Saint Patrick",
+      3,
+      2
+    ],
+    "3cffa5c2": [
+      "shark",
+      "Salvaged",
+      4,
+      2
+    ],
+    "1642522b": [
+      "shark",
+      "Scorcher",
+      4,
+      0
+    ],
+    "c5db6cd3": [
+      "shark",
+      "Shit Shark",
+      4,
+      0
+    ],
+    "3dc0a716": [
+      "shark",
+      "Solar",
+      3,
+      0
+    ],
+    "c627bcc8": [
+      "shark",
+      "Splush",
+      4,
+      0
+    ],
+    "a4cfca5a": [
+      "shark",
+      "Spooder",
+      4,
+      0
+    ],
+    "95426ad5": [
+      "shark",
+      "Stitches",
+      4,
+      0
+    ],
+    "3c921341": [
+      "shark",
+      "Taurus",
+      3,
+      0
+    ],
+    "fb6f6083": [
+      "shark",
+      "Void Shark",
+      4,
+      2
+    ],
+    "6a67b5c5": [
+      "shark",
+      "Waveform",
+      2,
+      2
+    ],
+    "85e75e6c": [
+      "shark",
+      "Widow",
+      2,
+      0
+    ],
+    "a6cba627": [
+      "shark",
+      "Yule",
+      3,
+      2
+    ],
+    "505ff447": [
+      "shark",
+      "2026 Shark",
+      5,
+      2
+    ],
+    "9d4126b8": [
+      "shark",
+      "Aurora",
+      4,
+      2
+    ],
+    "1f514730": [
+      "shark",
+      "Bushido",
+      3,
+      2
+    ],
+    "bd5eaf75": [
+      "shark",
+      "Cartoon Shark",
+      4,
+      2
+    ],
+    "ae410225": [
+      "shark",
+      "Cherenkov",
+      4,
+      2
+    ],
+    "d8bd0bca": [
+      "shark",
+      "Dirty Ink",
+      4,
+      2
+    ],
+    "6ece1087": [
+      "shark",
+      "Dissident",
+      3,
+      2
+    ],
+    "9c728db9": [
+      "shark",
+      "Fathom",
+      4,
+      2
+    ],
+    "4d075a12": [
+      "shark",
+      "Gloop",
+      5,
+      2
+    ],
+    "fa12e042": [
+      "shark",
+      "Joy",
+      4,
+      2
+    ],
+    "a69dbeb8": [
+      "shark",
+      "Kiss",
+      3,
+      2
+    ],
+    "730b2281": [
+      "shark",
+      "Nova Shark",
+      4,
+      2
+    ],
+    "f37f57c5": [
+      "shark",
+      "Ostern",
+      3,
+      2
+    ],
+    "9191820b": [
+      "shark",
+      "R32",
+      4,
+      2
+    ],
+    "0f4dae2c": [
+      "shark",
+      "Rad",
+      4,
+      2
+    ],
+    "52b3a981": [
+      "shark",
+      "Red Moon",
+      4,
+      2
+    ],
+    "b08af907": [
+      "shark",
+      "Slimy",
+      4,
+      2
+    ],
+    "dc5ac59b": [
+      "shark",
+      "Splat",
+      4,
+      2
+    ],
+    "dbf4a5b0": [
+      "shark",
+      "Starstruck",
+      4,
+      2
+    ],
+    "a372308f": [
+      "shark",
+      "Sunflower",
+      3,
+      2
+    ],
+    "35fcbbe8": [
+      "shark",
+      "Twintails",
+      4,
+      2
+    ],
+    "8d492f2a": [
+      "shark",
+      "Worn Shark",
+      4,
+      2
+    ],
+    "412b6a0b": [
+      "m60",
+      "Attention",
+      0,
+      0
+    ],
+    "f30be892": [
+      "m60",
+      "Bee",
+      3,
+      0
+    ],
+    "5bd0bb6d": [
+      "m60",
+      "Blast M60",
+      4,
+      0
+    ],
+    "2ba27f41": [
+      "m60",
+      "Checker",
+      2,
+      0
+    ],
+    "e0742d21": [
+      "m60",
+      "Crash",
+      3,
+      0
+    ],
+    "b658c822": [
+      "m60",
+      "Default(m60)",
+      0,
+      0
+    ],
+    "4901b113": [
+      "m60",
+      "Diablo",
+      3,
+      0
+    ],
+    "8c3a8be1": [
+      "m60",
+      "Dragonic M60",
+      4,
+      0
+    ],
+    "8463498e": [
+      "m60",
+      "Gem",
+      1,
+      0
+    ],
+    "a5a23535": [
+      "m60",
+      "George",
+      0,
+      0
+    ],
+    "b0311b84": [
+      "m60",
+      "Hell let loose",
+      3,
+      0
+    ],
+    "59365c09": [
+      "m60",
+      "Hexagon",
+      1,
+      0
+    ],
+    "0075f173": [
+      "m60",
+      "Hope",
+      1,
+      0
+    ],
+    "147808d8": [
+      "m60",
+      "Hotrod M60",
+      4,
+      2
+    ],
+    "e37ba9b0": [
+      "m60",
+      "Larry",
+      1,
+      0
+    ],
+    "6b03ac7d": [
+      "m60",
+      "Mili",
+      0,
+      0
+    ],
+    "0bcb8bc1": [
+      "m60",
+      "PCB",
+      3,
+      0
+    ],
+    "ed91e73a": [
+      "m60",
+      "Pink Demon",
+      2,
+      0
+    ],
+    "0ee565db": [
+      "m60",
+      "Republica",
+      3,
+      0
+    ],
+    "2d6830e7": [
+      "m60",
+      "Ruth",
+      1,
+      0
+    ],
+    "198e2a9e": [
+      "m60",
+      "Shit(m60)",
+      4,
+      0
+    ],
+    "150b5e8b": [
+      "m60",
+      "Tank",
+      3,
+      0
+    ],
+    "1c7c0ef0": [
+      "m60",
+      "Turquoise",
+      0,
+      0
+    ],
+    "5d762790": [
+      "m60",
+      "Zebra",
+      2,
+      0
+    ],
+    "9d3eab7e": [
+      "m60",
+      "Born",
+      4,
+      2
+    ],
+    "4bd56e14": [
+      "m60",
+      "Cartoon M60",
+      4,
+      2
+    ],
+    "e5b7d39b": [
+      "m60",
+      "Comic M60",
+      4,
+      2
+    ],
+    "ba093fb9": [
+      "m60",
+      "Cyber M60",
+      4,
+      2
+    ],
+    "3f65a1fa": [
+      "m60",
+      "Delicate",
+      4,
+      2
+    ],
+    "7e8ea2b3": [
+      "m60",
+      "Mintique M60",
+      4,
+      2
+    ],
+    "7bfc47f4": [
+      "m60",
+      "Priceless",
+      4,
+      2
+    ],
+    "ec556990": [
+      "m60",
+      "Pulper",
+      4,
+      2
+    ],
+    "139291b4": [
+      "m60",
+      "Rampage",
+      4,
+      2
+    ],
+    "e6b0278b": [
+      "m60",
+      "Void(m60)",
+      4,
+      2
+    ],
+    "e327d87a": [
+      "m60",
+      "Worn M60",
+      4,
+      2
+    ]
+  },
+  "renders": {
+    "12920012": [
+      0,
+      "Tomahawk/Cyber%20Smite-render.webp"
+    ],
+    "18399781": [
+      1,
+      "render-mini.e497377d.webp"
+    ],
+    "24036079": [
+      0,
+      "Tomahawk/Worn%20Tomahawk-render.webp"
+    ],
+    "27518935": [
+      1,
+      "render-mini.dcdf5f0c.webp"
+    ],
+    "34030475": [
+      0,
+      "Bayonet/Psychedelic-render.webp"
+    ],
+    "77602579": [
+      0,
+      "Bayonet/Solstice-render.webp"
+    ],
+    "e54330dc": [
+      0,
+      "Tomahawk/Abstract-render.webp"
+    ],
+    "719d1dbf": [
+      0,
+      "Tomahawk/Cartoon%20Tomahawk-render.webp"
+    ],
+    "8506219b": [
+      0,
+      "Tomahawk/Cherry-render.webp"
+    ],
+    "1351a8bd": [
+      0,
+      "Tomahawk/Comic%20Tomahawk-render.webp"
+    ],
+    "56f2b41d": [
+      0,
+      "Tomahawk/Crude-render.webp"
+    ],
+    "49d097f2": [
+      0,
+      "Tomahawk/Cyber%20Tomahawk-render.webp"
+    ],
+    "e1d793e4": [
+      0,
+      "Tomahawk/Glace-render.webp"
+    ],
+    "f0d17401": [
+      0,
+      "Tomahawk/Gloopahawk-render.webp"
+    ],
+    "f5027930": [
+      0,
+      "Tomahawk/Honeycomb-render.webp"
+    ],
+    "a4782cf0": [
+      0,
+      "Tomahawk/Hopeless-render.webp"
+    ],
+    "65314bed": [
+      0,
+      "Tomahawk/Hotrod%20Tomahawk-render.webp"
+    ],
+    "0d7ba3af": [
+      0,
+      "Tomahawk/Iris-render.webp"
+    ],
+    "b095be8d": [
+      0,
+      "Tomahawk/Jungle-render.webp"
+    ],
+    "43c02dda": [
+      0,
+      "Tomahawk/Mintique%20Tomahawk-render.webp"
+    ],
+    "b2d07fa3": [
+      0,
+      "Tomahawk/Noxious-render.webp"
+    ],
+    "ef08a8e8": [
+      0,
+      "Tomahawk/Scalped-render.webp"
+    ],
+    "138b8182": [
+      0,
+      "Tomahawk/Snake-render.webp"
+    ],
+    "ac105d0f": [
+      0,
+      "Tomahawk/Stardust-render.webp"
+    ],
+    "88aaf4d2": [
+      0,
+      "Tomahawk/Stingray-render.webp"
+    ],
+    "919bf21f": [
+      0,
+      "Tomahawk/Supernova-render.webp"
+    ],
+    "f2375ac3": [
+      0,
+      "Tomahawk/Tici-render.webp"
+    ],
+    "3c1c1d8a": [
+      0,
+      "Bayonet/22-render.webp"
+    ],
+    "7b45cc84": [
+      0,
+      "Bayonet/Action-render.webp"
+    ],
+    "c56dd194": [
+      0,
+      "Bayonet/Antique-render.webp"
+    ],
+    "07fe5d3d": [
+      0,
+      "Bayonet/Archverse-render.webp"
+    ],
+    "cae40b42": [
+      0,
+      "Bayonet/Bambi-render.webp"
+    ],
+    "31331ee4": [
+      0,
+      "Bayonet/Beach-render.webp"
+    ],
+    "0c3e145e": [
+      0,
+      "Bayonet/Blackhole-render.webp"
+    ],
+    "9c950380": [
+      0,
+      "Bayonet/Bled-render.webp"
+    ],
+    "a2838521": [
+      0,
+      "Bayonet/Bloo-render.webp"
+    ],
+    "1db80476": [
+      0,
+      "Bayonet/Bolt-render.webp"
+    ],
+    "5db7e15a": [
+      0,
+      "Bayonet/Bone-render.webp"
+    ],
+    "3293e221": [
+      0,
+      "Bayonet/Bubblepop-render.webp"
+    ],
+    "77e1e295": [
+      0,
+      "Bayonet/Bunnies-render.webp"
+    ],
+    "c7965f06": [
+      0,
+      "Bayonet/Butterflies-render.webp"
+    ],
+    "5394ef01": [
+      1,
+      "render-mini.07e62d53.webp"
+    ],
+    "dc76627e": [
+      0,
+      "Bayonet/Cane-render.webp"
+    ],
+    "7540514d": [
+      0,
+      "Bayonet/Cartoon%20Bayonet-render.webp"
+    ],
+    "7330acc2": [
+      0,
+      "Bayonet/Champion-render.webp"
+    ],
+    "070e8fac": [
+      1,
+      "render-mini.bdc40e39.webp"
+    ],
+    "425b0f4c": [
+      1,
+      "render-mini.20446d20.webp"
+    ],
+    "ca74820f": [
+      0,
+      "Bayonet/Clownicidal-render.webp"
+    ],
+    "9de19189": [
+      0,
+      "Bayonet/Comic%20Bayonet-render.webp"
+    ],
+    "f27c6b0b": [
+      0,
+      "Bayonet/Cryptex-render.webp"
+    ],
+    "f8fdb8b4": [
+      0,
+      "Bayonet/Easter-render.webp"
+    ],
+    "39f1bb44": [
+      0,
+      "Bayonet/Electra-render.webp"
+    ],
+    "054a47d3": [
+      0,
+      "Bayonet/Faded-render.webp"
+    ],
+    "b254099f": [
+      0,
+      "Bayonet/Femboy-render.webp"
+    ],
+    "7aff8e6c": [
+      0,
+      "Bayonet/Firecracker-render.webp"
+    ],
+    "c6d21d01": [
+      0,
+      "Bayonet/Flaming-render.webp"
+    ],
+    "d607631a": [
+      0,
+      "Bayonet/Flowy-render.webp"
+    ],
+    "25337fa6": [
+      0,
+      "Bayonet/Forge-render.webp"
+    ],
+    "c5b78cf7": [
+      0,
+      "Bayonet/Fumes-render.webp"
+    ],
+    "bf80c032": [
+      0,
+      "Bayonet/Galactic-render.webp"
+    ],
+    "cb2eec3e": [
+      1,
+      "render-mini.9871fc99.webp"
+    ],
+    "a09a31bd": [
+      0,
+      "Bayonet/Glitch-render.webp"
+    ],
+    "72f8f241": [
+      0,
+      "Bayonet/Glooplate-render.webp"
+    ],
+    "8a28ebec": [
+      0,
+      "Bayonet/Heat-render.webp"
+    ],
+    "f3b92124": [
+      0,
+      "Bayonet/Hotrod%20Bayonet-render.webp"
+    ],
+    "490c7963": [
+      0,
+      "Bayonet/Immortal-render.webp"
+    ],
+    "3c3e7f7e": [
+      0,
+      "Bayonet/Kin-render.webp"
+    ],
+    "2feb8f60": [
+      0,
+      "Bayonet/Loved-render.webp"
+    ],
+    "aba9d9c1": [
+      0,
+      "Bayonet/Lucky-render.webp"
+    ],
+    "09998c00": [
+      0,
+      "Bayonet/Luminescent-render.webp"
+    ],
+    "90f2f8d8": [
+      0,
+      "Bayonet/Mintique%20Bayonet-render.webp"
+    ],
+    "0d0e6afa": [
+      0,
+      "Bayonet/New-render.webp"
+    ],
+    "3afc455f": [
+      0,
+      "Bayonet/Old-render.webp"
+    ],
+    "58ec980e": [
+      0,
+      "Bayonet/Pencil-render.webp"
+    ],
+    "eb218563": [
+      0,
+      "Bayonet/Prism-render.webp"
+    ],
+    "458d5cdc": [
+      0,
+      "Bayonet/Prismatic-render.webp"
+    ],
+    "916f12b4": [
+      0,
+      "Bayonet/Radioactive-render.webp"
+    ],
+    "34a9f648": [
+      0,
+      "Bayonet/Ranked_S1%20Bronze-render.webp"
+    ],
+    "36ea80c4": [
+      0,
+      "Bayonet/Ranked_S1%20Gold-render.webp"
+    ],
+    "9a2ba588": [
+      0,
+      "Bayonet/Ranked_S1%20Silver-render.webp"
+    ],
+    "09652c4c": [
+      0,
+      "Bayonet/Ranked_S1%20Top10-render.webp"
+    ],
+    "340800bb": [
+      0,
+      "Bayonet/Ranked_S1%20Top100-render.webp"
+    ],
+    "071fdd68": [
+      0,
+      "Bayonet/Ranked_S2%20Bronze-render.webp"
+    ],
+    "38a7cde8": [
+      0,
+      "Bayonet/Ranked_S2%20Gold-render.webp"
+    ],
+    "337d4c72": [
+      0,
+      "Bayonet/Ranked_S2%20Silver-render.webp"
+    ],
+    "940fb392": [
+      0,
+      "Bayonet/Ranked_S2%20Top10-render.webp"
+    ],
+    "41b9ab29": [
+      0,
+      "Bayonet/Ranked_S3%20Bronze-render.webp"
+    ],
+    "31c7afd4": [
+      0,
+      "Bayonet/Ranked_S3%20Gold-render.webp"
+    ],
+    "ce106229": [
+      0,
+      "Bayonet/Ranked_S3%20Silver-render.webp"
+    ],
+    "05622ddb": [
+      0,
+      "Bayonet/Ranked_S3%20Top10-render.webp"
+    ],
+    "24c8965d": [
+      0,
+      "Bayonet/Ranked_S3%20Top100-render.webp"
+    ],
+    "980c5719": [
+      0,
+      "Bayonet/Ranked_S4%20Bronze-render.webp"
+    ],
+    "ed4679c6": [
+      0,
+      "Bayonet/Ranked_S4%20Gold-render.webp"
+    ],
+    "4ff918f4": [
+      0,
+      "Bayonet/Ranked_S4%20Silver-render.webp"
+    ],
+    "692fc493": [
+      0,
+      "Bayonet/Ranked_S4%20Top10-render.webp"
+    ],
+    "5f4dfc15": [
+      0,
+      "Bayonet/Ranked_S4%20Top100-render.webp"
+    ],
+    "54efdeac": [
+      0,
+      "Bayonet/Rebel-render.webp"
+    ],
+    "092946a2": [
+      1,
+      "render-mini.9295dd45.webp"
+    ],
+    "c22d628d": [
+      0,
+      "Bayonet/Saphire-render.webp"
+    ],
+    "0f3cf451": [
+      0,
+      "Bayonet/Sapphire-render.webp"
+    ],
+    "91b6942b": [
+      0,
+      "Bayonet/Saurus-render.webp"
+    ],
+    "979d7856": [
+      0,
+      "Bayonet/Shank-render.webp"
+    ],
+    "ce1daf47": [
+      0,
+      "Bayonet/Splash-render.webp"
+    ],
+    "b10da164": [
+      0,
+      "Bayonet/Spring-render.webp"
+    ],
+    "0313bdc8": [
+      0,
+      "Bayonet/Sunday-render.webp"
+    ],
+    "65a361a9": [
+      0,
+      "Bayonet/Thunder-render.webp"
+    ],
+    "475bc8d4": [
+      0,
+      "Bayonet/Tidal-render.webp"
+    ],
+    "d629c96c": [
+      0,
+      "Bayonet/Tyrant2-render.webp"
+    ],
+    "dfad0879": [
+      0,
+      "Bayonet/Verde-render.webp"
+    ],
+    "ac7b8455": [
+      0,
+      "Bayonet/Vibrant-render.webp"
+    ],
+    "7a3706a3": [
+      0,
+      "Bayonet/Vision-render.webp"
+    ],
+    "e7c26331": [
+      0,
+      "Bayonet/Worn%20Bayonet-render.webp"
+    ],
+    "8465ee39": [
+      0,
+      "Bayonet/Wrapping-render.webp"
+    ],
+    "7d987fe7": [
+      0,
+      "Bayonet/Zen-render.webp"
+    ],
+    "13fe4b0e": [
+      0,
+      "Revolver/Void%20Revolver-render.webp"
+    ],
+    "5dc25140": [
+      0,
+      "Revolver/Mintique%20Revolver-render.webp"
+    ],
+    "f5b6f02a": [
+      0,
+      "Revolver/Cosmic%20Bliss-render.webp"
+    ],
+    "8c78f985": [
+      0,
+      "Revolver/Soak-render.webp"
+    ],
+    "d31916b5": [
+      0,
+      "Revolver/Tagged-render.webp"
+    ],
+    "41c22230": [
+      1,
+      "render-mini.0e18dcd9.webp"
+    ],
+    "eedc3823": [
+      1,
+      "render-mini.52e77fc6.webp"
+    ],
+    "87719b17": [
+      1,
+      "render-mini.eb933c05.webp"
+    ],
+    "006664a4": [
+      1,
+      "render-mini.6f7c70aa.webp"
+    ],
+    "45cb1051": [
+      1,
+      "render-mini.d9589f67.webp"
+    ],
+    "9007590d": [
+      1,
+      "render-mini.93dfb164.webp"
+    ],
+    "d7b7a9b9": [
+      1,
+      "render-mini.c99d4613.webp"
+    ],
+    "29a2d357": [
+      1,
+      "render-mini.b10890fa.webp"
+    ],
+    "cc007da5": [
+      1,
+      "render-mini.d80f6410.webp"
+    ],
+    "0531b12f": [
+      1,
+      "render-mini.c2309363.webp"
+    ],
+    "0b548259": [
+      1,
+      "render-mini.547e994e.webp"
+    ],
+    "71e79020": [
+      1,
+      "render-mini.932aa305.webp"
+    ],
+    "e5920945": [
+      1,
+      "render-mini.dc1b632a.webp"
+    ],
+    "d9b0e8b6": [
+      1,
+      "render-mini.d193b888.webp"
+    ],
+    "0cc42136": [
+      1,
+      "render-mini.2d410ba7.webp"
+    ],
+    "fb74207c": [
+      1,
+      "render-mini.fba1d384.webp"
+    ],
+    "ae2c32d8": [
+      1,
+      "render-mini.1bc38f5d.webp"
+    ],
+    "ff1f09d1": [
+      1,
+      "render-mini.eac928d9.webp"
+    ],
+    "4e91684e": [
+      1,
+      "render-mini.c383e896.webp"
+    ],
+    "87d4bcc2": [
+      1,
+      "render-mini.ac780f49.webp"
+    ],
+    "5f7978a1": [
+      1,
+      "render-mini.25d55bd1.webp"
+    ],
+    "c14c4dc0": [
+      1,
+      "render-mini.852848c7.webp"
+    ],
+    "042c08c6": [
+      1,
+      "render-mini.bcfbb27b.webp"
+    ],
+    "e6466ba4": [
+      1,
+      "render-mini.65e80f23.webp"
+    ],
+    "aeda089e": [
+      1,
+      "render-mini.99ead175.webp"
+    ],
+    "f253a712": [
+      1,
+      "render-mini.1c25893f.webp"
+    ],
+    "9bfb1956": [
+      1,
+      "render-mini.198e243f.webp"
+    ],
+    "8ce6a413": [
+      1,
+      "render-mini.2a5cd556.webp"
+    ],
+    "84224ec8": [
+      1,
+      "render-mini.16c3ec51.webp"
+    ],
+    "402fd68b": [
+      1,
+      "render-mini.6aa138c1.webp"
+    ],
+    "8a310b8e": [
+      1,
+      "render-mini.12958150.webp"
+    ],
+    "57b7e15d": [
+      1,
+      "render-mini.ebdb1409.webp"
+    ],
+    "e1207d0b": [
+      1,
+      "render-mini.e9d8b8a6.webp"
+    ],
+    "63ea4d0b": [
+      1,
+      "render-mini.7aa8ee17.webp"
+    ],
+    "434799eb": [
+      1,
+      "render-mini.e0f87868.webp"
+    ],
+    "bb991ea9": [
+      1,
+      "render-mini.1c6b0c85.webp"
+    ],
+    "3c24fb35": [
+      1,
+      "render-mini.cae955df.webp"
+    ],
+    "898a8a9c": [
+      1,
+      "render-mini.d6a3fb6d.webp"
+    ],
+    "c63d4963": [
+      1,
+      "render-mini.dc2d9950.webp"
+    ],
+    "09e86a33": [
+      1,
+      "render-mini.e834083f.webp"
+    ],
+    "1e3daeb2": [
+      1,
+      "render-mini.6238adef.webp"
+    ],
+    "a73f043a": [
+      1,
+      "render-mini.e71fb0cf.webp"
+    ],
+    "53cb1ebd": [
+      1,
+      "render-mini.58238253.webp"
+    ],
+    "e07f0311": [
+      1,
+      "render-mini.5b98e09b.webp"
+    ],
+    "9213d32a": [
+      1,
+      "render-mini.c40325ea.webp"
+    ],
+    "df364a25": [
+      1,
+      "render-mini.9d6f6e09.webp"
+    ],
+    "a9f184b9": [
+      1,
+      "render-mini.ead01f13.webp"
+    ],
+    "eacb0ea9": [
+      1,
+      "render-mini.ffc2c040.webp"
+    ],
+    "496fae24": [
+      1,
+      "render-mini.bd48b041.webp"
+    ],
+    "9a6eeedf": [
+      1,
+      "render-mini.851af96d.webp"
+    ],
+    "cd3ca15d": [
+      1,
+      "render-mini.8ae68101.webp"
+    ],
+    "4136dd12": [
+      1,
+      "render-mini.9e98175e.webp"
+    ],
+    "9533134f": [
+      1,
+      "render-mini.ddfac380.webp"
+    ],
+    "9812d834": [
+      1,
+      "render-mini.99894089.webp"
+    ],
+    "ccb5ce93": [
+      1,
+      "render-mini.645b12e3.webp"
+    ],
+    "b581cb81": [
+      1,
+      "render-mini.55895cac.webp"
+    ],
+    "2679e4f7": [
+      1,
+      "render-mini.0bf6c729.webp"
+    ],
+    "12f54189": [
+      1,
+      "render-mini.074093e6.webp"
+    ],
+    "016cc28a": [
+      1,
+      "render-mini.1feae644.webp"
+    ],
+    "ec953141": [
+      1,
+      "render-mini.52162da8.webp"
+    ],
+    "d81aaa6a": [
+      1,
+      "render-mini.cf1802bc.webp"
+    ],
+    "4f34e782": [
+      1,
+      "render-mini.520747eb.webp"
+    ],
+    "10e5a605": [
+      1,
+      "render-mini.309b93df.webp"
+    ],
+    "6cc90494": [
+      1,
+      "render-mini.551685f9.webp"
+    ],
+    "e9eff9fe": [
+      1,
+      "render-mini.ead1d393.webp"
+    ],
+    "61d0c947": [
+      1,
+      "render-mini.d12df402.webp"
+    ],
+    "a77fc965": [
+      1,
+      "render-mini.ab349447.webp"
+    ],
+    "b019ec6c": [
+      1,
+      "render-mini.a1024de6.webp"
+    ],
+    "8d44d9a0": [
+      1,
+      "render-mini.3fe021a4.webp"
+    ],
+    "2909338c": [
+      1,
+      "render-mini.e9f2b3a8.webp"
+    ],
+    "169657c3": [
+      1,
+      "render-mini.4c46a642.webp"
+    ],
+    "3674ccc0": [
+      1,
+      "render-mini.b0c8b087.webp"
+    ],
+    "45c269e2": [
+      1,
+      "render-mini.e6a08c88.webp"
+    ],
+    "025c48df": [
+      1,
+      "render-mini.cebd790c.webp"
+    ],
+    "fc42a65f": [
+      1,
+      "render-mini.ba63a336.webp"
+    ],
+    "f5a0fd99": [
+      1,
+      "render-mini.f036139a.webp"
+    ],
+    "c716577e": [
+      1,
+      "render-mini.163c9d63.webp"
+    ],
+    "f4cdc391": [
+      1,
+      "render-mini.14c400e6.webp"
+    ],
+    "2cc657c1": [
+      1,
+      "render-mini.66e8786a.webp"
+    ],
+    "98db1163": [
+      1,
+      "render-mini.12011ca9.webp"
+    ],
+    "7914208b": [
+      1,
+      "render-mini.6b4bac1e.webp"
+    ],
+    "082f1b29": [
+      1,
+      "render-mini.472785a7.webp"
+    ],
+    "340c5a40": [
+      1,
+      "render-mini.fcfc6ce1.webp"
+    ],
+    "3bbf1256": [
+      1,
+      "render-mini.c3c4ca00.webp"
+    ],
+    "7fb29008": [
+      1,
+      "render-mini.2a7cf999.webp"
+    ],
+    "c0ebe037": [
+      1,
+      "render-mini.ecb691c0.webp"
+    ],
+    "16d0d738": [
+      1,
+      "render-mini.3f6f0328.webp"
+    ],
+    "a370d730": [
+      1,
+      "render-mini.1c657845.webp"
+    ],
+    "856aa7c8": [
+      1,
+      "render-mini.6308466e.webp"
+    ],
+    "8b66103e": [
+      1,
+      "render-mini.4d69f9af.webp"
+    ],
+    "fb0e518f": [
+      1,
+      "render-mini.311ce80a.webp"
+    ],
+    "4211f160": [
+      1,
+      "render-mini.579d0f56.webp"
+    ],
+    "3ab2c259": [
+      1,
+      "render-mini.7f4db371.webp"
+    ],
+    "80fc9c6d": [
+      1,
+      "render-mini.d93e5752.webp"
+    ],
+    "f7042e33": [
+      1,
+      "render-mini.86e38e94.webp"
+    ],
+    "452cb966": [
+      1,
+      "render-mini.17cd7215.webp"
+    ],
+    "667ff4c3": [
+      1,
+      "render-mini.580e2728.webp"
+    ],
+    "fd5e97c0": [
+      1,
+      "render-mini.d7a9dbe5.webp"
+    ],
+    "42acf0d4": [
+      1,
+      "render-mini.7c16de21.webp"
+    ],
+    "5b0ea082": [
+      1,
+      "render-mini.2c076458.webp"
+    ],
+    "118d130d": [
+      1,
+      "render-mini.991074df.webp"
+    ],
+    "35770b90": [
+      1,
+      "render-mini.dbaf37be.webp"
+    ],
+    "cb09342f": [
+      1,
+      "render-mini.4ae3fcc8.webp"
+    ],
+    "37d2ff15": [
+      1,
+      "render-mini.483edd3e.webp"
+    ],
+    "66f47bcf": [
+      1,
+      "render-mini.61413695.webp"
+    ],
+    "47202c0b": [
+      1,
+      "render-mini.01efbd58.webp"
+    ],
+    "55c3f576": [
+      1,
+      "render-mini.d0dcda98.webp"
+    ],
+    "8bc6427f": [
+      1,
+      "render-mini.76f5ee6c.webp"
+    ],
+    "0114f302": [
+      1,
+      "render-mini.73beb8a3.webp"
+    ],
+    "82af3cef": [
+      1,
+      "render-mini.492269b9.webp"
+    ],
+    "b5fd8a94": [
+      1,
+      "render-mini.3b0c08dd.webp"
+    ],
+    "432c94c2": [
+      1,
+      "render-mini.08749e6e.webp"
+    ],
+    "6f5f8ca7": [
+      1,
+      "render-mini.1ddf08e3.webp"
+    ],
+    "364a1f2a": [
+      1,
+      "render-mini.df1dae42.webp"
+    ],
+    "6ad6a64a": [
+      1,
+      "render-mini.7c1b2abe.webp"
+    ],
+    "8c56c7aa": [
+      1,
+      "render-mini.6b2a2301.webp"
+    ],
+    "a9e4ea9c": [
+      1,
+      "render-mini.d47e72c7.webp"
+    ],
+    "61f1b0de": [
+      1,
+      "render-mini.e0431f08.webp"
+    ],
+    "f52d369f": [
+      1,
+      "render-mini.6149ef46.webp"
+    ],
+    "3fd3ec14": [
+      1,
+      "render-mini.4f5a32dc.webp"
+    ],
+    "9d71277d": [
+      1,
+      "render-mini.92b7ad71.webp"
+    ],
+    "1d81e7a0": [
+      1,
+      "render-mini.f42ca3f1.webp"
+    ],
+    "8c9c5577": [
+      1,
+      "render-mini.d05501b3.webp"
+    ],
+    "10028eac": [
+      1,
+      "render-mini.f8809c1c.webp"
+    ],
+    "15cd460c": [
+      1,
+      "render-mini.ab0805f0.webp"
+    ],
+    "4fc20b34": [
+      1,
+      "render-mini.dca601b5.webp"
+    ],
+    "8d392c00": [
+      1,
+      "render-mini.6273fee1.webp"
+    ],
+    "6ebfbda6": [
+      1,
+      "render-mini.eb9b4930.webp"
+    ],
+    "8ad4c97c": [
+      1,
+      "render-mini.c2f5b726.webp"
+    ],
+    "1640309a": [
+      1,
+      "render-mini.3ee9f1d5.webp"
+    ],
+    "e28fd614": [
+      1,
+      "render-mini.d75d8dd8.webp"
+    ],
+    "4b021644": [
+      1,
+      "render-mini.62049a0b.webp"
+    ],
+    "27b557f7": [
+      1,
+      "render-mini.07b9ae66.webp"
+    ],
+    "1a0a51f1": [
+      1,
+      "render-mini.c56894e0.webp"
+    ],
+    "87737c82": [
+      1,
+      "render-mini.5f79f613.webp"
+    ],
+    "d778968c": [
+      1,
+      "render-mini.b9c61cef.webp"
+    ],
+    "437045e5": [
+      1,
+      "render-mini.1c230d7d.webp"
+    ],
+    "5c1256f8": [
+      1,
+      "render-mini.6a5b105a.webp"
+    ],
+    "a8c46327": [
+      1,
+      "render-mini.f6663b4b.webp"
+    ],
+    "7b0ba436": [
+      1,
+      "render-mini.9abd10a4.webp"
+    ],
+    "f80bd393": [
+      1,
+      "render-mini.e3aeebab.webp"
+    ],
+    "ce29b6bb": [
+      1,
+      "render-mini.7b09004f.webp"
+    ],
+    "b22fef67": [
+      1,
+      "render-mini.fde97f94.webp"
+    ],
+    "4389c144": [
+      1,
+      "render-mini.1cdb8485.webp"
+    ],
+    "f32964ce": [
+      1,
+      "render-mini.1e0f4939.webp"
+    ],
+    "8177571b": [
+      1,
+      "render-mini.3614af55.webp"
+    ],
+    "08869f0a": [
+      1,
+      "render-mini.51e10496.webp"
+    ],
+    "cf1ce7bc": [
+      1,
+      "render-mini.ee146cc7.webp"
+    ],
+    "b0526123": [
+      1,
+      "render-mini.c66e1cbf.webp"
+    ],
+    "084685ca": [
+      1,
+      "render-mini.3b156523.webp"
+    ],
+    "c86f9155": [
+      1,
+      "render-mini.99844691.webp"
+    ],
+    "a7bdabd2": [
+      1,
+      "render-mini.c03a00e8.webp"
+    ],
+    "156d427d": [
+      1,
+      "render-mini.32e539b6.webp"
+    ],
+    "b2478864": [
+      1,
+      "render-mini.a216bbc6.webp"
+    ],
+    "af7fe802": [
+      1,
+      "render-mini.fb704bd0.webp"
+    ],
+    "667b7bc7": [
+      1,
+      "render-mini.5bd9785b.webp"
+    ],
+    "3cffa5c2": [
+      1,
+      "render-mini.61d2ee28.webp"
+    ],
+    "6a67b5c5": [
+      1,
+      "render-mini.91a547dc.webp"
+    ],
+    "a6cba627": [
+      1,
+      "render-mini.fa966a05.webp"
+    ],
+    "505ff447": [
+      1,
+      "render-mini.23c89005.webp"
+    ],
+    "9d4126b8": [
+      1,
+      "render-mini.41493157.webp"
+    ],
+    "1f514730": [
+      1,
+      "render-mini.e2fc2dee.webp"
+    ],
+    "bd5eaf75": [
+      1,
+      "render-mini.16d51a2e.webp"
+    ],
+    "ae410225": [
+      1,
+      "render-mini.489fbda2.webp"
+    ],
+    "d8bd0bca": [
+      1,
+      "render-mini.aafade87.webp"
+    ],
+    "6ece1087": [
+      1,
+      "render-mini.d34fbebf.webp"
+    ],
+    "4d075a12": [
+      1,
+      "render-mini.d120e0b5.webp"
+    ],
+    "fa12e042": [
+      1,
+      "render-mini.731c468b.webp"
+    ],
+    "a69dbeb8": [
+      1,
+      "render-mini.9bd93982.webp"
+    ],
+    "730b2281": [
+      1,
+      "render-mini.d8083bf3.webp"
+    ],
+    "f37f57c5": [
+      1,
+      "render-mini.dc5d17dd.webp"
+    ],
+    "9191820b": [
+      1,
+      "render-mini.a1ca58d8.webp"
+    ],
+    "0f4dae2c": [
+      1,
+      "render-mini.dab6593a.webp"
+    ],
+    "52b3a981": [
+      1,
+      "render-mini.0288df66.webp"
+    ],
+    "b08af907": [
+      1,
+      "render-mini.8c741e2b.webp"
+    ],
+    "dc5ac59b": [
+      1,
+      "render-mini.4356212f.webp"
+    ],
+    "dbf4a5b0": [
+      1,
+      "render-mini.0051a7ee.webp"
+    ],
+    "a372308f": [
+      1,
+      "render-mini.c7385d04.webp"
+    ],
+    "35fcbbe8": [
+      1,
+      "render-mini.5a194513.webp"
+    ],
+    "8d492f2a": [
+      1,
+      "render-mini.3ece9841.webp"
+    ],
+    "147808d8": [
+      1,
+      "render-mini.a6861ed0.webp"
+    ],
+    "9d3eab7e": [
+      1,
+      "render-mini.9687e551.webp"
+    ],
+    "4bd56e14": [
+      1,
+      "render-mini.3670be1a.webp"
+    ],
+    "e5b7d39b": [
+      1,
+      "render-mini.5f50acb0.webp"
+    ],
+    "ba093fb9": [
+      1,
+      "render-mini.af8a57e1.webp"
+    ],
+    "3f65a1fa": [
+      1,
+      "render-mini.d9b77185.webp"
+    ],
+    "7e8ea2b3": [
+      1,
+      "render-mini.3fc27e01.webp"
+    ],
+    "7bfc47f4": [
+      1,
+      "render-mini.1b4ff818.webp"
+    ],
+    "ec556990": [
+      1,
+      "render-mini.e3aa64f2.webp"
+    ],
+    "139291b4": [
+      1,
+      "render-mini.1faecd76.webp"
+    ],
+    "e6b0278b": [
+      1,
+      "render-mini.ecdfa0cd.webp"
+    ],
+    "e327d87a": [
+      1,
+      "render-mini.788a3a67.webp"
+    ]
+  },
+  "gunSets": {
+    "mintique": {
+      "label": "Mintique",
+      "skins": {
+        "revolver": "5dc25140",
+        "lar": "87d4bcc2",
+        "ar9": "f253a712",
+        "wheatie": "496fae24",
+        "mac10": "ec953141",
+        "scar": "c716577e",
+        "vita": "f52d369f",
+        "shark": "cf1ce7bc",
+        "m60": "7e8ea2b3"
+      }
+    },
+    "void": {
+      "label": "Void",
+      "skins": {
+        "revolver": "13fe4b0e",
+        "lar": "042c08c6",
+        "ar9": "1e3daeb2",
+        "wheatie": "9533134f",
+        "mac10": "6cc90494",
+        "scar": "3bbf1256",
+        "vita": "449f442b",
+        "shark": "fb6f6083",
+        "m60": "e6b0278b"
+      }
+    },
+    "comic": {
+      "label": "Comic",
+      "skins": {
+        "revolver": "006664a4",
+        "lar": "29a2d357",
+        "ar9": "57b7e15d",
+        "wheatie": "9213d32a",
+        "mac10": "016cc28a",
+        "scar": "3674ccc0",
+        "vita": "a370d730",
+        "shark": "5c1256f8",
+        "m60": "e5b7d39b"
+      }
+    },
+    "cartoon": {
+      "label": "Cartoon",
+      "skins": {
+        "revolver": "87719b17",
+        "lar": "0531b12f",
+        "ar9": "8a310b8e",
+        "wheatie": "e07f0311",
+        "mac10": "12f54189",
+        "scar": "2909338c",
+        "vita": "47202c0b",
+        "shark": "bd5eaf75",
+        "m60": "4bd56e14"
+      }
+    },
+    "worn": {
+      "label": "Worn",
+      "skins": {
+        "revolver": "d7b7a9b9",
+        "lar": "e6466ba4",
+        "ar9": "a73f043a",
+        "wheatie": "9812d834",
+        "mac10": "e9eff9fe",
+        "scar": "c0ebe037",
+        "vita": "87737c82",
+        "shark": "8d492f2a",
+        "m60": "e327d87a"
+      }
+    },
+    "hotrod": {
+      "label": "Hotrod",
+      "skins": {
+        "revolver": "45cb1051",
+        "lar": "ae2c32d8",
+        "ar9": "aeda089e",
+        "wheatie": "53cb1ebd",
+        "mac10": "ccb5ce93",
+        "scar": "a77fc965",
+        "vita": "80fc9c6d",
+        "shark": "b22fef67",
+        "m60": "147808d8"
+      }
+    },
+    "cyber": {
+      "label": "Cyber",
+      "skins": {
+        "wheatie": "a9f184b9",
+        "m60": "ba093fb9"
+      }
+    },
+    "dragonic": {
+      "label": "Dragonic",
+      "skins": {
+        "ar9": "63ea4d0b",
+        "wheatie": "eacb0ea9",
+        "scar": "025c48df"
+      }
+    }
+  },
+  "renderBases": [
+    "https://kirka.lukeskywalk.com/static/renders/",
+    "https://kirka.io/assets/img/"
+  ]
+}
