@@ -711,6 +711,7 @@ const VM_VERSION = '1.22.0';
     const textureSetsByWeapon = {};
     const fileToWeapon = new Map();
     const glTexturesByWeapon = {};
+    const swapRefreshBumpAt = {};
     const TEXTURE_FILE_RE = /texture\.[a-f0-9]+\.webp/i;
 
     for (const weaponId in WEAPON_REGISTRY) {
@@ -1531,6 +1532,16 @@ const VM_VERSION = '1.22.0';
         glTexturesByWeapon[weapon].add(tex);
         rememberWeaponSkinHash(weapon, file);
         latestEquippedHashByWeapon[weapon] = file;
+        if (anySwapActive) {
+            const swap = getSwapTargetForWeapon(weapon);
+            if (swap && swap !== 'none') {
+                const t = Date.now();
+                if (!swapRefreshBumpAt[weapon] || t - swapRefreshBumpAt[weapon] > 450) {
+                    swapRefreshBumpAt[weapon] = t;
+                    preloadSwapTexture(swap, function () { requestRefreshWeaponSwap(weapon); });
+                }
+            }
+        }
 
     }
 
@@ -1606,6 +1617,34 @@ const VM_VERSION = '1.22.0';
         for (let i = 0; i < previewBubbleControllers.length; i++) {
             previewBubbleControllers[i].forceClose();
         }
+    }
+
+    const skinDropdownClosers = [];
+
+    function registerSkinDropdownCloser(closeFn) {
+        skinDropdownClosers.push(closeFn);
+    }
+
+    function closeOtherSkinDropdowns(keepCloseFn) {
+        for (let i = 0; i < skinDropdownClosers.length; i++) {
+            const closeFn = skinDropdownClosers[i];
+            if (closeFn !== keepCloseFn) closeFn();
+        }
+    }
+
+    function closeAllSkinLists() {
+        closeOtherSkinDropdowns(null);
+    }
+
+    function closeAllSkinSearchSuggestions() {
+        document.querySelectorAll('.melee-vm-skin-search-list').forEach((el) => {
+            el.style.display = 'none';
+        });
+    }
+
+    function closeAllSkinPopups() {
+        closeAllSkinLists();
+        closeAllSkinSearchSuggestions();
     }
 
     function isMeleeTexture(tex) {
@@ -2331,7 +2370,10 @@ const VM_VERSION = '1.22.0';
         swapperMenuHost.style.display = open ? 'block' : 'none';
         swapperMenuHost.style.pointerEvents = open ? 'auto' : 'none';
         if (swapperMenuOverlay) swapperMenuOverlay.classList.toggle('is-open', !!open);
-        if (!open) closeAllPreviewBubbles();
+        if (!open) {
+            closeAllSkinPopups();
+            closeAllPreviewBubbles();
+        }
         if (open) preloadSavedSwapTargetsOnce();
     }
 
@@ -2453,6 +2495,35 @@ const VM_VERSION = '1.22.0';
                     box-sizing: border-box;
                 }
                 #melee-vm-overlay.is-open { display: flex; }
+                #melee-vm-overlay.is-light { background: rgba(0, 0, 0, 0.1); backdrop-filter: none; }
+                #melee-vm-overlay.is-light .melee-vm-panel { background: rgba(12, 12, 16, 0.38); box-shadow: none; }
+                #melee-vm-overlay.is-light .melee-vm-card,
+                #melee-vm-overlay.is-light .melee-vm-header,
+                #melee-vm-overlay.is-light .melee-vm-tab-bar,
+                #melee-vm-overlay.is-light .melee-vm-footer { background: rgba(14, 14, 18, 0.52); }
+                #melee-vm-overlay.is-light .melee-vm-title { color: #6eb6ff; }
+                #melee-vm-overlay.is-light .melee-vm-tab-active,
+                #melee-vm-overlay.is-light .melee-vm-set-action-btn.is-primary,
+                #melee-vm-overlay.is-light .melee-vm-mode-btn.is-active,
+                #melee-vm-overlay.is-light .melee-vm-toggle-btn.is-on {
+                    background: rgba(110, 182, 255, 0.18) !important;
+                    border-color: rgba(110, 182, 255, 0.5) !important;
+                    color: #9eceff !important;
+                }
+                #melee-vm-overlay.is-light .melee-vm-toggle-btn:not(.is-on),
+                #melee-vm-overlay.is-light .melee-vm-neo-action-reset {
+                    background: rgba(160, 120, 255, 0.14);
+                    border-color: rgba(160, 120, 255, 0.45);
+                    color: #c9a8ff;
+                }
+                #melee-vm-overlay.is-light .melee-vm-set-action-btn,
+                #melee-vm-overlay.is-light .melee-vm-mode-btn,
+                #melee-vm-overlay.is-light .melee-vm-neo-action-random,
+                #melee-vm-overlay.is-light .melee-vm-copy-btn { border-color: rgba(110, 182, 255, 0.35); color: #8ec4ff; }
+                #melee-vm-overlay.is-light .melee-vm-skin-search-input:focus,
+                #melee-vm-overlay.is-light .melee-vm-scope-check input,
+                #melee-vm-overlay.is-light .melee-vm-speed-row input[type="range"] { accent-color: #6eb6ff; }
+                #melee-vm-overlay.is-light .melee-vm-skin-search-input:focus { border-color: rgba(110, 182, 255, 0.45); }
                 .melee-vm-panel {
                     width: min(660px, 94vw);
                     min-height: min(720px, 88vh);
@@ -2513,22 +2584,22 @@ const VM_VERSION = '1.22.0';
                 .melee-vm-fav-list::-webkit-scrollbar-thumb:hover { background: #4a4a55; }
                 .melee-vm-tab-body { transition: opacity 0.2s ease, visibility 0.2s ease; }
                 .melee-vm-header {
-                    display: flex;
+                    display: grid;
+                    grid-template-columns: 1fr auto 1fr;
                     align-items: center;
-                    justify-content: space-between;
                     gap: 16px;
-                    padding: 18px 24px;
+                    padding: 22px 24px 20px;
                     flex-shrink: 0;
                     background: rgba(255, 255, 255, 0.03);
                     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
                 }
-                .melee-vm-title-wrap { flex: 1; min-width: 0; }
+                .melee-vm-title-wrap { grid-column: 2; text-align: center; min-width: 0; }
                 .melee-vm-title {
-                    font-size: 18px;
-                    font-weight: 700;
-                    letter-spacing: 0.4px;
-                    color: #fff;
-                    line-height: 1.2;
+                    font-size: 24px;
+                    font-weight: 800;
+                    letter-spacing: 0.5px;
+                    color: #ff3860;
+                    line-height: 1.15;
                 }
                 .melee-vm-header-close {
                     flex-shrink: 0;
@@ -2552,6 +2623,26 @@ const VM_VERSION = '1.22.0';
                     background: #ff3860;
                     color: #000;
                     border-color: #ff3860;
+                }
+                .melee-vm-header-actions { grid-column: 3; justify-self: end; display: flex; gap: 8px; flex-shrink: 0; }
+                .melee-vm-header-theme {
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 17px;
+                    border-radius: 8px;
+                    border: 1px solid rgba(110, 182, 255, 0.4);
+                    background: rgba(0, 0, 0, 0.35);
+                    color: #6eb6ff;
+                    cursor: pointer;
+                    font-family: inherit;
+                    outline: none;
+                }
+                .melee-vm-header-theme.is-on {
+                    background: rgba(110, 182, 255, 0.18);
+                    border-color: rgba(110, 182, 255, 0.65);
                 }
                 .melee-vm-tab-bar {
                     display: flex;
@@ -2913,12 +3004,10 @@ const VM_VERSION = '1.22.0';
                 .melee-vm-weapon-card-compact { padding-bottom: 0 !important; }
                 .melee-vm-preview-box {
                     border-radius: 8px;
-                    border: 1px solid rgba(255, 255, 255, 0.15);
+                    border: none;
                     background: rgba(0, 0, 0, 0.35);
                 }
-                .melee-vm-preview-box.melee-vm-preview-render {
-                    border-color: rgba(227, 41, 47, 0.35);
-                }
+                .melee-vm-preview-box img { border: none; outline: none; }
                 .melee-vm-preview-bubble {
                     background: #16161a !important;
                     border: 1px solid rgba(255, 255, 255, 0.15) !important;
@@ -3002,6 +3091,8 @@ const VM_VERSION = '1.22.0';
                 .melee-vm-catalog-add-status.is-success {
                     color: #2cff7c;
                 }
+                .melee-vm-catalog-actions { margin-bottom: 4px; }
+                .melee-vm-catalog-hint { margin-top: 14px; margin-bottom: 0; }
                 .melee-vm-catalog-add-status {
                     font-size: 11px;
                     color: rgba(255, 255, 255, 0.52);
@@ -3078,6 +3169,23 @@ const VM_VERSION = '1.22.0';
         titleWrap.appendChild(brandTitle);
         header.appendChild(titleWrap);
 
+        let menuLightOn = getStorage('kirka-menu-light', getStorage('kirka-mods-peek', false));
+
+        const headerActions = document.createElement('div');
+        headerActions.className = 'melee-vm-header-actions';
+
+        const themeBtn = document.createElement('button');
+        themeBtn.type = 'button';
+        themeBtn.className = 'melee-vm-header-theme';
+        themeBtn.title = menuLightOn ? 'Toggle dark mode' : 'Toggle light mode';
+        themeBtn.textContent = menuLightOn ? '\u2600' : '\u263E';
+        themeBtn.addEventListener('click', function () {
+            menuLightOn = !menuLightOn;
+            try { localStorage.setItem('kirka-menu-light', menuLightOn); } catch (_) {}
+            paintTabs();
+            themeBtn.blur();
+        });
+
         const closeBtn = document.createElement('button');
         closeBtn.type = 'button';
         closeBtn.className = 'melee-vm-header-close';
@@ -3086,7 +3194,9 @@ const VM_VERSION = '1.22.0';
             closeSwapperMenu();
             closeBtn.blur();
         });
-        header.appendChild(closeBtn);
+        headerActions.appendChild(themeBtn);
+        headerActions.appendChild(closeBtn);
+        header.appendChild(headerActions);
         panel.appendChild(header);
 
         const tabBar = document.createElement('div');
@@ -3156,6 +3266,12 @@ const VM_VERSION = '1.22.0';
                 tabBodies[tabId].style.opacity = isActive ? '1' : '0';
                 tabBodies[tabId].style.visibility = isActive ? 'visible' : 'hidden';
                 tabBodies[tabId].style.pointerEvents = isActive ? 'auto' : 'none';
+            }
+            overlay.classList.toggle('is-light', menuLightOn);
+            if (themeBtn) {
+                themeBtn.classList.toggle('is-on', menuLightOn);
+                themeBtn.textContent = menuLightOn ? '\u2600' : '\u263E';
+                themeBtn.title = menuLightOn ? 'Toggle dark mode' : 'Toggle light mode';
             }
         }
 
@@ -3249,10 +3365,14 @@ const VM_VERSION = '1.22.0';
         function createOption(target, label, initial, cb) {
             const row = document.createElement('div');
             row.className = 'melee-vm-row';
-            const labelSpan = document.createElement('span');
-            labelSpan.className = MUTED_LABEL;
-            labelSpan.textContent = label;
-            row.appendChild(labelSpan);
+            if (label) {
+                const labelSpan = document.createElement('span');
+                labelSpan.className = MUTED_LABEL;
+                labelSpan.textContent = label;
+                row.appendChild(labelSpan);
+            } else {
+                row.style.justifyContent = 'flex-end';
+            }
 
             const btn = document.createElement('button');
             btn.type = 'button';
@@ -3472,32 +3592,6 @@ const VM_VERSION = '1.22.0';
             row.className = 'melee-vm-section-title';
             row.textContent = text;
             target.appendChild(row);
-        }
-
-        function closeAllSkinSearchSuggestions() {
-            document.querySelectorAll('.melee-vm-skin-search-list').forEach((el) => {
-                el.style.display = 'none';
-            });
-        }
-
-        function closeAllSkinLists() {
-            document.querySelectorAll('.melee-vm-skin-list').forEach((el) => {
-                el.style.display = 'none';
-            });
-            document.querySelectorAll('.melee-vm-fav-list').forEach((el) => {
-                el.style.display = 'none';
-            });
-            document.querySelectorAll('.melee-vm-skin-caret').forEach((el) => {
-                el.textContent = '▾';
-            });
-            document.querySelectorAll('.melee-vm-fav-caret').forEach((el) => {
-                el.textContent = '▾';
-            });
-        }
-
-        function closeAllSkinPopups() {
-            closeAllSkinLists();
-            closeAllSkinSearchSuggestions();
         }
 
         function filterSkinOptionsByQuery(options, query) {
@@ -3782,7 +3876,8 @@ const VM_VERSION = '1.22.0';
             }
 
             function openList() {
-                closeAllSkinPopups();
+                closeOtherSkinDropdowns(closeList);
+                closeAllSkinSearchSuggestions();
                 list.style.display = 'block';
                 caret.textContent = '▴';
 
@@ -3866,6 +3961,8 @@ const VM_VERSION = '1.22.0';
 
             rebuildListItems();
 
+            list.addEventListener('mousedown', (e) => e.stopPropagation());
+
             btn.onclick = (e) => {
                 e.stopPropagation();
                 if (list.style.display === 'none') openList();
@@ -3880,6 +3977,8 @@ const VM_VERSION = '1.22.0';
             controls.appendChild(wrap);
             row.appendChild(controls);
             target.appendChild(row);
+
+            registerSkinDropdownCloser(closeList);
 
             paintSelection(current);
 
@@ -3954,7 +4053,8 @@ const VM_VERSION = '1.22.0';
             }
 
             function openList() {
-                closeAllSkinPopups();
+                closeOtherSkinDropdowns(closeList);
+                closeAllSkinSearchSuggestions();
                 rebuildListItems();
                 list.style.display = 'block';
                 caret.textContent = '▴';
@@ -4019,10 +4119,14 @@ const VM_VERSION = '1.22.0';
                 btn.blur();
             };
 
+            list.addEventListener('mousedown', function (e) { e.stopPropagation(); });
+
             wrap.appendChild(btn);
             wrap.appendChild(list);
             row.appendChild(wrap);
             target.appendChild(row);
+
+            registerSkinDropdownCloser(closeList);
 
             return {
                 refresh: rebuildListItems,
@@ -4035,7 +4139,13 @@ const VM_VERSION = '1.22.0';
             };
         }
 
-        document.addEventListener('click', () => {
+        document.addEventListener('click', (e) => {
+            if (
+                e.target instanceof Element
+                && e.target.closest('.melee-vm-dropdown-btn, .melee-vm-fav-btn, .melee-vm-skin-list, .melee-vm-fav-list, .melee-vm-skin-search-list, .melee-vm-skin-search-input')
+            ) {
+                return;
+            }
             closeAllSkinPopups();
             closeAllPreviewBubbles();
         });
@@ -4455,7 +4565,7 @@ const VM_VERSION = '1.22.0';
         const meleeCard = makeCard(mainTab);
         // --- Mods tab: Melee only (hide gun viewmodels in first person) ---
         createSectionHeader(meleeCard, 'Melee only');
-        createOption(meleeCard, 'Enabled', cfg.meleeOnlyEnabled, v => {
+        createOption(meleeCard, '', cfg.meleeOnlyEnabled, v => {
             cfg.meleeOnlyEnabled = v;
             syncCfgFlags();
             localStorage.setItem('kirka-melee-enabled', v);
@@ -4500,7 +4610,7 @@ const VM_VERSION = '1.22.0';
             refreshWireframeUi();
         }
 
-        createOption(wireframeCard, 'Enabled', cfg.wireframeEnabled, v => {
+        createOption(wireframeCard, '', cfg.wireframeEnabled, v => {
             cfg.wireframeEnabled = v;
             syncCfgFlags();
             persistWireframeEnabled(v);
@@ -4569,7 +4679,7 @@ const VM_VERSION = '1.22.0';
             gunScaleSub.style.display = cfg.weaponScaleEnabled ? '' : 'none';
         }
 
-        createOption(gunScaleCard, 'Enabled', cfg.weaponScaleEnabled, (enabled) => {
+        createOption(gunScaleCard, '', cfg.weaponScaleEnabled, (enabled) => {
             setWeaponScaleEnabled(enabled);
             refreshGunScaleUi();
         });
@@ -4747,7 +4857,7 @@ const VM_VERSION = '1.22.0';
 
         function buildFindAnySkinDescription() {
             const count = String(Object.keys(SKIN_DATABASE).length).padStart(3, '0');
-            return 'Search FULL skin catalog, press "add to dropdown" to add into its respective dropdown(saves locally). almost all weapon .webps (' + count + '), updated 7/2/26.';
+            return 'Search FULL skin catalog, press "add to dropdown" to add into its respective dropdown(saves locally). almost all weapon .webps searchable (' + count + '), updated 7/2/26.';
         }
 
         const catalogSearchWrap = document.createElement('div');
@@ -4815,7 +4925,7 @@ const VM_VERSION = '1.22.0';
         catalogFinderCard.appendChild(catalogSelected);
 
         const catalogFinderHint = document.createElement('div');
-        catalogFinderHint.className = 'melee-vm-hint';
+        catalogFinderHint.className = 'melee-vm-hint melee-vm-catalog-hint';
         catalogFinderHint.textContent = buildFindAnySkinDescription();
         catalogFinderCard.appendChild(catalogFinderHint);
 
@@ -5060,6 +5170,7 @@ const VM_VERSION = '1.22.0';
     function runLobbyWarm() {
         if (!anySwapActive || !hookedGlEntries.length) return;
         preloadSavedSwapTargetsOnce();
+        warmVisibleLoadoutSwaps();
         refreshAllSavedSwapWeapons();
     }
 
@@ -5074,8 +5185,8 @@ const VM_VERSION = '1.22.0';
             }
         }
         if (inLobby && anySwapActive) {
-            if (lobbyWarmAttempts < 15) {
-                lobbyWarmAttempts += 1;
+            lobbyWarmAttempts += 1;
+            if (lobbyWarmAttempts <= 30 || (lobbyWarmAttempts <= 46 && lobbyWarmAttempts % 4 === 0)) {
                 runLobbyWarm();
             }
         } else {
