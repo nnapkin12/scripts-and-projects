@@ -20,7 +20,7 @@ Right now, I am heavily focused on developing scripts for **Kirka.io**.
 This file serves as the database for some of my Kirka.io scrips.
 
 ### 2. Texture Swapper Preview
-Below is a live preview of how the texture swapper script manipulates the WebGL pipeline to swap weapon skins in real-time.
+Below is a live preview of how the texture swapper script menu would look like.
 
 <details>
 <summary><b>📷 Click to expand screenshot preview</b></summary>
