@@ -6,9 +6,9 @@ My collection of unecessary utils, assets, etc.
 
 ---
 
-## Repo Contents
+## Stuff in here
 
-| File Name | Description | Type |
+| thing | desc | type |
 | :--- | :--- | :--- |
 | `skins.json` | database of weapon texture `.webp` files and model renders. | DB |
 | `Screenshot...png` | Preview of a WIP Kirka.io texture swapper menu. | Media |
