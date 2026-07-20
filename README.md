@@ -34,3 +34,13 @@ Below is a live preview of how the texture swapper script menu would look like.
 
 ## Future Scripts
 *   [ ] Finish texture swapper for kirka.io
+
+---
+## License 
+
+This repository, (and its contents) are officially licensed under the **ICCLEIYSIUYA** License. 
+
+> "I Couldn't Care Less Even If You Stuff It Up Your Ass"
+
+Read the full text in the [LICENSE](LICENSE) file to see. in short: You are free to do whatever you want with this stuff and this stuff is **AS IS**
+
