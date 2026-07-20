@@ -24,7 +24,7 @@ This is the database for a texture swap Kirka.io script.
 Below is a live preview of how the texture swapper script menu would look like.
 
 <details>
-<summary><b>click here mudd🔥😂😂❌🅾️</b></summary>
+<summary><b>click here sneednem👀🔥🦶👁️👀😂😂❌🅾️</b></summary>
 
 ![Texture Swapper Preview](Screenshot%202026-07-13%20221509.png)
 
