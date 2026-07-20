@@ -1,4 +1,5 @@
 # Scripts & Projects 
+Code provided strictly **AS IS**
 
 My collection of unecessary utils, assets, etc. 
 **Right now**, I am heavily focused on developing scripts for **[Kirka.io](https://kirka.io)**
@@ -42,5 +43,6 @@ This repository, (and its contents) are officially licensed under the **ICCLEIYS
 
 > "I Couldn't Care Less Even If You Stuff It Up Your Ass"
 
-Read the full text in the [LICENSE](LICENSE) file to see. **In Short**: You are free to do whatever you want with this stuff, and this stuff is **AS IS**
+Read the full text in the [LICENSE](LICENSE) file. **In short**: You are free to do whatever you want with this code, but it is provided strictly **AS IS**.
+
 
