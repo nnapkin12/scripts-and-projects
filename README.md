@@ -1,7 +1,7 @@
 # Scripts & Projects 
 Code provided strictly **AS IS**
 
-My collection of unecessary utils, assets, etc. 
+unecessary utils, assets, etc. 
 **Right now**, I am heavily focused on developing scripts for **[Kirka.io](https://kirka.io)**
 
 
