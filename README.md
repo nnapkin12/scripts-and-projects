@@ -1,13 +1,35 @@
-most js,
-kirka.io main scripts im, developing right now
+# Scripts & Projects 
 
-Contents of repo:
+My personal collection of unecessary utils, assets, etc. 
+Right now, I am heavily focused on developing scripts for **Kirka.io**.
 
-skins.json (**1**)
+---
 
-Screenshot 2026-07-13 221509.png (**2**)
+## Repo Contents
+
+| File Name | Description | Type |
+| :--- | :--- | :--- |
+| `skins.json` | database of weapon texture `.webp` files and model renders. | Asset DB |
+| `Screenshot...png` | Visual preview of the custom Kirka.io texture swapper script in action. | Media |
+
+---
 
 
-(**1**) DB of most weapon texture .webps and some renders. (kirka.io)
 
-(**2**) Preview of Texture swapper script for kirka.io
+### 1. Weapon Skin Database (`skins.json`)
+This file serves as the database for some of my Kirka.io scrips.
+
+### 2. Texture Swapper Preview
+Below is a live preview of how the texture swapper script manipulates the WebGL pipeline to swap weapon skins in real-time.
+
+<details>
+<summary><b>📷 Click to expand screenshot preview</b></summary>
+
+![Texture Swapper Preview](Screenshot%202026-07-13%20221509.png)
+
+</details>
+
+---
+
+## Future Scripts
+*   [ ] Optimize WebGL texture loading speeds
